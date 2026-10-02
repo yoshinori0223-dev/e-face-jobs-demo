@@ -36,3 +36,9 @@ body{padding-top:0}
 /* v13: CTA anchored inside hero */
 .hero-register{position:absolute;right:5%;top:18px;z-index:20;border:0;background:#0968cc;color:#fff;border-radius:8px;padding:13px 18px;font-weight:800;box-shadow:0 3px 12px #174b7b33}
 @media(max-width:800px){.hero-register{right:10px;top:9px;font-size:10px;padding:9px 11px}}
+
+/* v14: registration CTA gets its own row; never overlays hero/nav */
+.register-bar{height:54px;display:flex;align-items:center;justify-content:flex-end;padding:0 5%;background:#fff}
+.register-bar button{border:0;background:#0968cc;color:#fff;border-radius:8px;padding:11px 18px;font-weight:800}
+.hero-register{display:none!important}
+@media(max-width:800px){.register-bar{height:46px;padding:0 12px}.register-bar button{font-size:10px;padding:9px 12px}}
