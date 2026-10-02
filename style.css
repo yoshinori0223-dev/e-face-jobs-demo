@@ -67,3 +67,8 @@ body{padding-top:0}
 @media(max-width:800px){
  .search{margin:-4px 12px 22px;max-width:none}
 }
+
+/* v18: clean hero + exactly one live search panel */
+.hero-photo{display:block;width:100%;height:auto;object-fit:contain;object-position:center top}
+.search#search{position:relative;z-index:2;margin:0 auto 28px;max-width:1120px}
+@media(max-width:800px){.search#search{margin:0 12px 22px;max-width:none}}
