@@ -1,0 +1,34 @@
+name: Hello Work discovery small test
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_jobs:
+        description: "Maximum Fukuoka-city detail fetches (1-10)"
+        required: true
+        default: "5"
+
+permissions:
+  contents: read
+
+jobs:
+  discovery-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Discover and normalize
+        run: |
+          python tools/hellowork_discovery_test.py \
+            --max "${{ inputs.max_jobs }}" \
+            --delay 4 \
+            --output data/hellowork-discovery-test-output.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hellowork-discovery-small-test
+          path: data/hellowork-discovery-test-output.json
+          if-no-files-found: error
