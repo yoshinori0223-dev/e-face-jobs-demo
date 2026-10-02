@@ -27,3 +27,8 @@ header .logo{width:270px;overflow:visible}
 /* v11: standalone hero — duplicate HTML header removed */
 body{padding-top:0}
 .hero{margin-top:0}
+
+/* v12: registration CTA retained without duplicate header */
+.top-register{position:absolute;right:5%;top:18px;z-index:5}
+.top-register button{border:0;background:#0968cc;color:#fff;border-radius:8px;padding:13px 18px;font-weight:800;box-shadow:0 2px 8px #174b7b22}
+@media(max-width:800px){.top-register{right:12px;top:10px}.top-register button{font-size:10px;padding:9px 11px}}
