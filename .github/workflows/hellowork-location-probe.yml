@@ -1,4 +1,4 @@
-name: Hello Work location modal probe
+name: Hello Work location modal probe v2
 on:
   push:
     paths:
