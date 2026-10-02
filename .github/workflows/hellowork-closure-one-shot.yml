@@ -1,4 +1,4 @@
-name: Hello Work closure one-shot verification
+name: Hello Work closure one-shot verification v2
 on:
   push:
     paths:
