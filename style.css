@@ -122,3 +122,22 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
 
 /* v30 header mypage action */
 .header-actions{display:flex;align-items:center;gap:9px}.mypage-btn{border:1px solid #0877d8;background:#fff;color:#0877d8;border-radius:8px;padding:11px 15px;font-weight:800;cursor:pointer;white-space:nowrap}.mypage-btn:hover{background:#eef7ff}@media(max-width:800px){.header-actions{gap:5px}.mypage-btn,.header-actions .register-btn{font-size:11px;padding:9px 8px}}
+
+/* v31 desktop header fit */
+@media (min-width:801px){
+  .main-header{padding-left:5%;padding-right:2%;gap:18px;box-sizing:border-box}
+  .brand-link{flex:0 0 auto}
+  .brand-link img{max-width:235px;height:auto}
+  .main-nav{flex:1;display:flex;justify-content:center;gap:28px;min-width:0}
+  .main-nav a{white-space:nowrap}
+  .header-actions{flex:0 0 auto;margin-left:auto}
+  .mypage-btn{padding-left:14px;padding-right:14px}
+  .header-actions .register-btn{padding-left:16px;padding-right:16px;white-space:nowrap}
+}
+@media (min-width:801px) and (max-width:1180px){
+  .main-header{padding-left:2%;padding-right:1%;gap:10px}
+  .brand-link img{max-width:205px}
+  .main-nav{gap:16px}
+  .main-nav a{font-size:13px}
+  .mypage-btn,.header-actions .register-btn{font-size:12px;padding:10px 11px}
+}
