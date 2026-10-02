@@ -475,3 +475,26 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
     transform:translateY(-1px);
   }
 }
+
+
+/* v43 mobile job-card image layout: preserve horizontal work-context photos */
+@media (max-width:800px){
+  .recommend-card{
+    display:block!important;
+  }
+  .recommend-card .pic{
+    width:100%!important;
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:640/194!important;
+  }
+  .recommend-card .pic img{
+    width:100%!important;
+    height:100%!important;
+    min-height:0!important;
+    max-height:none!important;
+    object-fit:cover!important;
+    object-position:center center!important;
+  }
+}
