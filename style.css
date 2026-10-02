@@ -85,3 +85,14 @@ section.search#search{position:relative!important;z-index:2!important;display:gr
 .hero-photo{position:static!important;display:block!important;width:100%!important;height:auto!important;object-fit:contain!important}
 section.search#search{margin:0 auto 28px!important;transform:none!important;top:auto!important;max-width:1120px!important}
 @media(max-width:800px){section.search#search{margin:0 12px 22px!important}}
+
+/* v21 demo subpages */
+.demo-page{max-width:1180px;margin:0 auto;padding:0 28px 60px}
+.page-hero{padding:58px 10px 34px;border-bottom:1px solid #dce8f3;margin-bottom:28px}.page-hero small{color:#0877d8;font-weight:900;letter-spacing:.14em}.page-hero h1{font-size:36px;color:#073763;margin:8px 0}
+.demo-card{background:#fff;border:1px solid #e1eaf2;border-radius:18px;padding:28px;margin:22px 0;box-shadow:0 8px 28px #173b5b0c}.demo-card h2{color:#073763}
+.demo-search{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr auto;gap:10px}.demo-search input,.demo-search select,.register-demo input{padding:14px;border:1px solid #ccd9e5;border-radius:9px;background:#fff}.demo-search button,.register-demo button,.employer-lead button{border:0;border-radius:9px;background:#0874d5;color:#fff;font-weight:800;padding:14px 20px}
+.demo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:22px 0}.demo-grid article{background:#f5faff;border:1px solid #deebf6;border-radius:16px;padding:24px}.demo-grid article b,.demo-grid article span{color:#0877d8}.demo-grid h2,.demo-grid h3{color:#073763}.demo-grid a{color:#0877d8;font-weight:800;text-decoration:none}
+.feature-grid{grid-template-columns:repeat(2,1fr)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.steps>div{padding:20px;background:#f5faff;border-radius:14px}.steps b{color:#0877d8}
+details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;color:#073763;cursor:pointer}.employer-lead{background:linear-gradient(110deg,#eaf7ff,#f7fbff);border-radius:20px;padding:45px;margin:22px 0}.employer-lead h2{font-size:30px;color:#073763}
+.register-demo{max-width:560px;margin:25px auto}.register-demo label{display:grid;gap:7px;margin:17px 0;font-weight:700;color:#073763}.register-demo input{width:100%;box-sizing:border-box}.register-demo button{width:100%;margin-top:8px}.muted{font-size:12px;color:#6d7e8e}
+@media(max-width:800px){.demo-page{padding:0 14px 40px}.page-hero{padding:34px 4px 22px}.page-hero h1{font-size:27px}.demo-search,.demo-grid,.feature-grid,.steps{grid-template-columns:1fr}.demo-card{padding:18px}.employer-lead{padding:26px 20px}.employer-lead h2{font-size:24px}}
