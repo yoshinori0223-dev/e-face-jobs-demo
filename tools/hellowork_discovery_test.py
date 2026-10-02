@@ -99,6 +99,8 @@ def main():
     ap.add_argument("--max",type=int,default=5)
     ap.add_argument("--delay",type=float,default=4.0)
     ap.add_argument("--output",default="data/hellowork-discovery-test-output.json")
+    ap.add_argument("--previous",default=None,
+                    help="Optional previous discovery snapshot. Existing job numbers are reused without detail fetch.")
     args=ap.parse_args()
     limit=max(1,min(args.max,10))
     delay=max(args.delay,3.0)
@@ -106,29 +108,63 @@ def main():
     session=requests.Session()
     session.headers.update({"User-Agent":USER_AGENT,"Accept-Language":"ja,en;q=0.5"})
 
+    previous_map={}
+    if args.previous and Path(args.previous).exists():
+        try:
+            prev_payload=json.loads(Path(args.previous).read_text(encoding="utf-8"))
+            for row in prev_payload.get("results",[]):
+                job_no=row.get("job_number") or row.get("_discovery",{}).get("job_number")
+                if job_no and row.get("status") in ("test_candidate","active","new","changed"):
+                    previous_map[job_no]=row
+        except Exception:
+            previous_map={}
+
     candidates=discover(session,limit)
     results=[]
-    for i,c in enumerate(candidates):
-        try:
-            item=extract_job(c["detail_url"],session)
+    detail_fetches=0
+    reused_existing=0
+
+    new_candidates=[c for c in candidates if c["job_number"] not in previous_map]
+
+    for c in candidates:
+        job_no=c["job_number"]
+        if job_no in previous_map:
+            item=dict(previous_map[job_no])
             item["_discovery"]={
-                "job_number":c["job_number"],
+                "job_number":job_no,
                 "search_location":c["search_location"],
                 "public_scope_search":c["public_scope_search"],
+                "reused_previous_detail":True,
             }
-            # Defense-in-depth: detail page must still be a Fukuoka-city candidate.
+            item["last_seen_in_search"]=True
+            results.append(item)
+            reused_existing+=1
+            continue
+
+        try:
+            item=extract_job(c["detail_url"],session)
+            detail_fetches+=1
+            item["_discovery"]={
+                "job_number":job_no,
+                "search_location":c["search_location"],
+                "public_scope_search":c["public_scope_search"],
+                "reused_previous_detail":False,
+            }
+            item["last_seen_in_search"]=True
             if item.get("status")=="test_candidate" and "福岡県福岡市" not in (item.get("location") or ""):
                 item["status"]="excluded_location_mismatch"
             results.append(item)
         except Exception as e:
             results.append({
                 "source_url":c["detail_url"],
-                "job_number":c["job_number"],
+                "job_number":job_no,
                 "status":"fetch_error",
                 "error":type(e).__name__,
                 "message":str(e)[:300],
             })
-        if i<len(candidates)-1:
+
+        # Delay only between actual detail requests, not reused records.
+        if detail_fetches < len(new_candidates):
             time.sleep(delay)
 
     payload={
@@ -138,12 +174,14 @@ def main():
         "first_page_only":True,
         "max_detail_fetches":limit,
         "discovered":len(candidates),
+        "detail_fetches":detail_fetches,
+        "reused_existing":reused_existing,
         "results":results,
     }
     out=Path(args.output)
     out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
-    print("discovered",len(candidates))
+    print("discovered",len(candidates),"detail_fetches",detail_fetches,"reused_existing",reused_existing)
     for x in results:
         print(x.get("job_number"),x.get("status"),x.get("company"),x.get("location"))
 
