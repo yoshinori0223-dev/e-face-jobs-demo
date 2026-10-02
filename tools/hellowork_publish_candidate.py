@@ -40,14 +40,24 @@ def category_of(row):
 
 def employment_of(row):
     raw = clean(row.get("employment_type"))
-    if "正社員" in raw:
-        return "正社員"
+    # Hello Work often renders "正社員以外 ... 有期契約社員".
+    # Check exclusions/specific forms before the generic "正社員" token.
+    if "正社員以外" in raw:
+        if "契約" in raw:
+            return "契約社員"
+        if "パート" in raw:
+            return "アルバイト・パート"
+        if "派遣" in raw:
+            return "派遣社員"
+        return "契約社員"
     if "パート" in raw:
         return "アルバイト・パート"
     if "契約" in raw:
         return "契約社員"
     if "派遣" in raw:
         return "派遣社員"
+    if "正社員" in raw:
+        return "正社員"
     return raw or "その他"
 
 def pay_of(row):
