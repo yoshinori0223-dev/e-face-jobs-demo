@@ -79,3 +79,9 @@ body{padding-top:0}
 .hero-photo{position:static!important;inset:auto!important;display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important}
 section.search#search{position:relative!important;z-index:2!important;display:grid!important;margin:0 auto 28px!important;max-width:1120px!important;transform:none!important;top:auto!important;bottom:auto!important}
 @media(max-width:800px){section.search#search{margin:0 12px 22px!important}}
+
+/* v20 clean-final hero + single live search */
+.hero{height:auto!important;min-height:0!important;margin:0!important;padding:0!important}
+.hero-photo{position:static!important;display:block!important;width:100%!important;height:auto!important;object-fit:contain!important}
+section.search#search{margin:0 auto 28px!important;transform:none!important;top:auto!important;max-width:1120px!important}
+@media(max-width:800px){section.search#search{margin:0 12px 22px!important}}
