@@ -141,3 +141,31 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
   .main-nav a{font-size:13px}
   .mypage-btn,.header-actions .register-btn{font-size:12px;padding:10px 11px}
 }
+
+/* v32 definitive desktop header fix */
+@media (min-width:801px){
+ .main-header{
+   height:78px!important;
+   display:grid!important;
+   grid-template-columns:250px minmax(0,1fr) auto!important;
+   padding:0 16px 0 5%!important;
+   gap:12px!important;
+   width:100%!important;
+   max-width:100vw!important;
+   overflow:hidden!important;
+ }
+ .main-header .brand-link{min-width:0!important}
+ .main-header .brand-link img{width:230px!important;max-width:100%!important}
+ .main-header .main-nav{min-width:0!important;gap:24px!important;justify-content:center!important}
+ .main-header .main-nav a{font-size:13px!important}
+ .main-header .header-actions{display:flex!important;gap:8px!important;margin:0!important;min-width:0!important}
+ .main-header .mypage-btn{padding:11px 14px!important}
+ .main-header .header-actions .register-btn{padding:11px 14px!important;margin:0!important}
+}
+@media (min-width:801px) and (max-width:1300px){
+ .main-header{grid-template-columns:235px minmax(0,1fr) auto!important;padding-left:24px!important}
+ .main-header .brand-link img{width:220px!important}
+ .main-header .main-nav{gap:18px!important}
+ .main-header .main-nav a{font-size:12px!important}
+ .main-header .mypage-btn,.main-header .header-actions .register-btn{font-size:12px!important;padding:10px 11px!important}
+}
