@@ -346,3 +346,28 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
  }
  .hw-pic{font-size:30px!important}
 }
+
+/* v39 restore full 9-job grid and original compact photo ratio */
+@media (min-width:801px){
+ .recommend-cards{
+   grid-template-columns:repeat(3,minmax(0,1fr))!important;
+   gap:14px!important;
+ }
+ .recommend-card .pic{
+   height:82px!important;
+   min-height:82px!important;
+   max-height:82px!important;
+ }
+ .recommend-card .pic img{
+   width:100%!important;
+   height:82px!important;
+   min-height:0!important;
+   max-height:82px!important;
+   object-fit:cover!important;
+   object-position:center 22%!important;
+   image-rendering:auto!important;
+ }
+ .recommend-card .body{padding:11px 12px 12px!important}
+ .recommend-card .body h3{font-size:13px!important;line-height:1.4!important;margin-bottom:5px!important}
+ .recommend-card .pay{font-size:15px!important;margin:7px 0!important}
+}
