@@ -48,6 +48,7 @@ for x in soup.find_all(["input","button","label","option"]):
     if "福岡" in txt or "福岡" in str(attrs) or "40" in str(attrs):
         rows.append({"tag":x.name,"text":txt,"attrs":attrs})
 payload={"status":r.status_code,"rows":rows,"html_excerpt":r.text[:30000]}
+Path("data").mkdir(parents=True, exist_ok=True)
 Path("data/hellowork-location-modal-probe.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 print("matches",len(rows))
 for row in rows[:100]:
