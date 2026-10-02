@@ -32,3 +32,7 @@ body{padding-top:0}
 .top-register{position:absolute;right:5%;top:18px;z-index:5}
 .top-register button{border:0;background:#0968cc;color:#fff;border-radius:8px;padding:13px 18px;font-weight:800;box-shadow:0 2px 8px #174b7b22}
 @media(max-width:800px){.top-register{right:12px;top:10px}.top-register button{font-size:10px;padding:9px 11px}}
+
+/* v13: CTA anchored inside hero */
+.hero-register{position:absolute;right:5%;top:18px;z-index:20;border:0;background:#0968cc;color:#fff;border-radius:8px;padding:13px 18px;font-weight:800;box-shadow:0 3px 12px #174b7b33}
+@media(max-width:800px){.hero-register{right:10px;top:9px;font-size:10px;padding:9px 11px}}
