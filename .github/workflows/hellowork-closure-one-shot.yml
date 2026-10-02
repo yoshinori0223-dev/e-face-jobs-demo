@@ -1,0 +1,51 @@
+name: Hello Work closure one-shot verification
+on:
+  push:
+    paths:
+      - ".github/workflows/hellowork-closure-one-shot.yml"
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Closure regression
+        run: python tools/hellowork_closure_regression_test.py
+      - name: Make real snapshot
+        run: python tools/hellowork_discovery_test.py --max 3 --delay 3 --output data/current.json
+      - name: Build synthetic ended candidates from real active jobs
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open("data/current.json",encoding="utf-8"))
+          out={"ended_candidate":[]}
+          for x in d["results"]:
+              if x.get("status")=="test_candidate":
+                  y=dict(x)
+                  y["diff_status"]="ended_candidate"
+                  out["ended_candidate"].append(y)
+          json.dump(out,open("data/diff.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
+          print("ended candidates",len(out["ended_candidate"]))
+          PY
+      - name: Recheck closure
+        run: python tools/hellowork_closure_recheck_test.py --diff data/diff.json --max 3 --delay 3 --output data/closure.json
+      - name: Assert false closure is prevented
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open("data/closure.json",encoding="utf-8"))
+          print(d["summary"])
+          assert d["summary"]["closed"]==0, d
+          assert d["summary"]["still_active"]==3, d
+          assert d["summary"]["review_required"]==0, d
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hellowork-closure-one-shot
+          path: data/closure.json
