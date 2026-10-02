@@ -44,6 +44,21 @@ def clean(s: str) -> str:
 def text_of(soup: BeautifulSoup) -> str:
     return clean(soup.get_text(" ", strip=True))
 
+def normalize_title(value: Optional[str]) -> Optional[str]:
+    if not value:
+        return value
+    value = re.sub(r"^職種解説\s*", "", value)
+    return clean(value)
+
+def extract_wage(text: str, current: Optional[str]) -> Optional[str]:
+    # Prefer an actual yen range over a bare wage type such as "月給".
+    ranges = re.findall(r"(\d{1,3}(?:,\d{3})+\s*円)\s*[〜～~-]\s*(\d{1,3}(?:,\d{3})+\s*円)", text)
+    if ranges:
+        lo, hi = ranges[0]
+        wage_type = current if current in ("月給", "日給", "時給", "年俸制") else ""
+        return clean(f"{wage_type} {lo}〜{hi}")
+    return current
+
 def table_value(soup: BeautifulSoup, labels: list[str]) -> Optional[str]:
     for cell in soup.find_all(["th", "td", "dt"]):
         label = clean(cell.get_text(" ", strip=True))
@@ -106,11 +121,13 @@ def extract_job(url: str, session: requests.Session) -> dict:
     ]
     job_no = job_no or regex_value(page_text, "求人番号", next_labels)
     title = title or regex_value(page_text, "職種", ["仕事内容", "雇用形態"])
+    title = normalize_title(title)
     description = description or regex_value(page_text, "仕事内容", ["雇用形態", "雇用期間"])
     location = location or regex_value(page_text, "就業場所", ["マイカー通勤", "転勤"])
     employment = employment or regex_value(page_text, "雇用形態", ["雇用期間", "就業場所"])
     received = received or regex_value(page_text, "受付年月日", ["紹介期限日"])
     deadline = deadline or regex_value(page_text, "紹介期限日", ["受理安定所"])
+    wage = extract_wage(page_text, wage)
 
     # Employer name is required for this test. Missing/hidden names are excluded.
     if not company:
