@@ -21,3 +21,18 @@ Phase A verifies that a small number of generally public Hello Work job-detail p
 `data/hellowork-test-output.json`
 
 The Actions workflow uploads that JSON as an artifact. It does not commit the output back to the repository or publish it through GitHub Pages.
+
+
+## Discovery test
+
+`hellowork_discovery_test.py` connects the official search page to the detail parser.
+
+Current safeguards:
+- first search-result page only
+- official area group `401 / 北九州市～福岡市`
+- prefilter on the search page: work location must start with `福岡県福岡市`
+- prefilter on the search page: public scope must be `1`
+- at most 10 detail requests
+- minimum 3 seconds between detail requests
+- second location/public checks on the detail page
+- output artifact only; no Pages publication
