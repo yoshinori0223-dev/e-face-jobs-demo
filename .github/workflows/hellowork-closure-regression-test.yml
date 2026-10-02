@@ -1,6 +1,9 @@
 name: Hello Work closure regression test
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/hellowork-closure-regression-test.yml"
 permissions:
   contents: read
 jobs:
