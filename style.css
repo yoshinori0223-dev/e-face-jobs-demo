@@ -221,3 +221,36 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
 .image-note{font-size:9px;color:#7b8796;margin-top:8px;line-height:1.35}
 .source-badge.hw-live{display:inline-block;background:#fff4d8;color:#8b5a00;border:1px solid #f0cf7b;border-radius:4px;padding:4px 6px;font-size:9px;font-weight:800;margin-bottom:6px}
 @media(max-width:800px){.pic img{min-height:130px}}
+
+/* v37 job-card thumbnail sizing */
+@media (min-width:801px){
+  .cards .card .pic{
+    height:120px!important;
+    min-height:120px!important;
+    max-height:120px!important;
+  }
+  .cards .card .pic img{
+    width:100%!important;
+    height:120px!important;
+    min-height:0!important;
+    max-height:120px!important;
+    object-fit:cover!important;
+    object-position:center!important;
+  }
+}
+@media (max-width:800px){
+  .cards .card{grid-template-columns:95px 1fr!important}
+  .cards .card .pic{
+    width:95px!important;
+    height:100%!important;
+    min-height:130px!important;
+    max-height:none!important;
+  }
+  .cards .card .pic img{
+    width:95px!important;
+    height:100%!important;
+    min-height:130px!important;
+    max-height:none!important;
+    object-fit:cover!important;
+  }
+}
