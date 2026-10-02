@@ -72,3 +72,10 @@ body{padding-top:0}
 .hero-photo{display:block;width:100%;height:auto;object-fit:contain;object-position:center top}
 .search#search{position:relative;z-index:2;margin:0 auto 28px;max-width:1120px}
 @media(max-width:800px){.search#search{margin:0 12px 22px;max-width:none}}
+
+/* v19 hard reset: hero is image only; exactly one HTML search */
+.hero{position:relative!important;height:auto!important;min-height:0!important;margin:0!important;padding:0!important;background:none!important;overflow:hidden!important}
+.hero .copy,.hero form,.hero .search,.hero-search,.search-overlay{display:none!important}
+.hero-photo{position:static!important;inset:auto!important;display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important}
+section.search#search{position:relative!important;z-index:2!important;display:grid!important;margin:0 auto 28px!important;max-width:1120px!important;transform:none!important;top:auto!important;bottom:auto!important}
+@media(max-width:800px){section.search#search{margin:0 12px 22px!important}}
