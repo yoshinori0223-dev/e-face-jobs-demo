@@ -463,3 +463,15 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
     object-position:center center!important;
   }
 }
+
+
+/* v42 clickable job-card affordance */
+.recommend-card,.hw-card{
+  cursor:pointer!important;
+}
+@media (hover:hover){
+  .recommend-card:hover,.hw-card:hover{
+    box-shadow:0 3px 12px rgba(7,55,99,.08)!important;
+    transform:translateY(-1px);
+  }
+}
