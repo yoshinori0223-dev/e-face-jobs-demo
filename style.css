@@ -214,3 +214,10 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
 
 /* v35 Hello Work integration demo */
 .source-badge{display:inline-block;margin-left:7px;padding:5px 9px;border-radius:15px;font-size:11px;font-weight:800}.source-badge.eface{background:#e8f4ff;color:#0877d8}.source-badge.hw{background:#e9f7ee;color:#247a46}.hw-demo-note{width:min(1220px,92%);margin:0 auto 30px;padding:18px 20px!important;border:1px solid #cfe5d6;border-radius:12px;background:#f5fbf7;color:#315c40}.hw-demo-note p{margin:7px 0 0;line-height:1.7}.hw-source-box{margin-top:18px;padding:15px;border:1px solid #cfe5d6;border-radius:10px;background:#f5fbf7}.hw-source-box b{color:#247a46}.hw-source-box p{margin:5px 0;font-size:13px}
+
+/* job card image restoration v36 */
+.pic{overflow:hidden;position:relative}
+.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.image-note{font-size:9px;color:#7b8796;margin-top:8px;line-height:1.35}
+.source-badge.hw-live{display:inline-block;background:#fff4d8;color:#8b5a00;border:1px solid #f0cf7b;border-radius:4px;padding:4px 6px;font-size:9px;font-weight:800;margin-bottom:6px}
+@media(max-width:800px){.pic img{min-height:130px}}
