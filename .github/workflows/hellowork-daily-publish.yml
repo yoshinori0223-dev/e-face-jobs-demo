@@ -1,0 +1,116 @@
+name: Hello Work daily publish
+
+on:
+  schedule:
+    # 09:00 JST every day (00:00 UTC)
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/hellowork-daily-publish.yml"
+
+concurrency:
+  group: hellowork-daily-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Regression tests
+        run: |
+          python tools/hellowork_diff_regression_test.py
+          python tools/hellowork_closure_regression_test.py
+          python tools/hellowork_state_merge_regression_test.py
+
+      - name: Prepare previous snapshot
+        run: |
+          mkdir -p data
+          if [ ! -f data/hellowork-auto-state.json ]; then
+            printf '{"results":[]}' > data/hellowork-auto-state.json
+          fi
+
+      - name: Discover current public jobs
+        run: |
+          python tools/hellowork_discovery_test.py             --max 5             --delay 4             --previous data/hellowork-auto-state.json             --output data/hellowork-auto-current.json
+
+      - name: Diff
+        run: |
+          python tools/hellowork_diff_test.py             --current data/hellowork-auto-current.json             --previous data/hellowork-auto-state.json             --output data/hellowork-auto-diff.json
+
+      - name: Closure recheck
+        run: |
+          python tools/hellowork_closure_recheck_test.py             --diff data/hellowork-auto-diff.json             --max 10             --delay 4             --output data/hellowork-auto-closure.json
+
+      - name: Lifecycle merge
+        run: |
+          python tools/hellowork_state_merge_test.py             --current data/hellowork-auto-current.json             --previous data/hellowork-auto-state.json             --closure data/hellowork-auto-closure.json             --output data/hellowork-auto-merged.json
+
+      - name: Build public display
+        run: |
+          python tools/hellowork_publish_candidate.py             --merged data/hellowork-auto-merged.json             --output hellowork-live-test.js             --max 3
+
+      - name: Guardrails
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          state=json.loads(Path("data/hellowork-auto-merged.json").read_text(encoding="utf-8"))
+          summary=state.get("summary",{})
+
+          # Fail closed: ambiguous closure must never be auto-published.
+          assert summary.get("review_required",0) == 0, summary
+          assert summary.get("closed",0) >= 0, summary
+          assert summary.get("active",0) >= 0, summary
+
+          js=Path("hellowork-live-test.js").read_text(encoding="utf-8")
+          count=js.count('"source": "hellowork-live-test"')
+          assert 0 <= count <= 3, count
+          if count:
+              assert "ハローワーク公開求人" in js
+
+          print("guardrails OK", summary, "published_cards", count)
+          PY
+
+      - name: Save lifecycle state
+        run: cp data/hellowork-auto-merged.json data/hellowork-auto-state.json
+
+      - name: Commit only when data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hellowork-live-test.js data/hellowork-auto-state.json
+          if git diff --cached --quiet; then
+            echo "No Hello Work changes to publish"
+            exit 0
+          fi
+          git commit -m "Daily Hello Work update"
+          git push origin HEAD:main
+
+      - name: Upload audit artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hellowork-daily-audit
+          path: |
+            data/hellowork-auto-current.json
+            data/hellowork-auto-diff.json
+            data/hellowork-auto-closure.json
+            data/hellowork-auto-merged.json
+          if-no-files-found: warn
