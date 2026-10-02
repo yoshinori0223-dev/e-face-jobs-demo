@@ -18,16 +18,16 @@ function matches(j){
    &&(!t||j.type===t);
 }
 function cardHtml(j,i,isHw=false){
- const badge=["人気","新着","正社員"][i]||"おすすめ";
+ const badge=["人気","新着","正社員"][i]||"";
  const img=isHw
    ? `<div class="pic hw-pic"><span>${icons[j.cat]||"👤"}</span></div>`
-   : `<div class="pic">${j.image?`<img src="${j.image}" alt="${j.cat}のイメージ画像" loading="lazy">`:(icons[j.cat]||"👤")}<span class="recommend-label label-${i}">${badge}</span></div>`;
+   : `<div class="pic">${j.image?`<img src="${j.image}" alt="${j.cat}のイメージ画像" loading="lazy">`:(icons[j.cat]||"👤")}${badge?`<span class="recommend-label label-${i}">${badge}</span>`:""}</div>`;
  return `<article class="card ${isHw?"hw-card":"recommend-card"}" data-id="${j.id}">${img}<div class="body">${isHw?'<span class="source-badge hw-live">ハローワーク公開求人・テスト表示</span>':""}<h3>${j.title}</h3><div class="meta">${j.company}</div><div class="meta">📍 ${j.area}</div><div class="pay">${j.pay}</div><div class="tags">${(j.tags||[]).map(x=>`<span>${x}</span>`).join("")}</div></div></article>`;
 }
 function render(){
  const eface=EFACE_JOBS.filter(matches);
  const hw=HW_LIVE.filter(matches);
- $("count").textContent=`検索結果 ${eface.length+hw.length}件`;
+ const filtered=!!($("q").value||$("place").value||$("cat").value||$("type").value||chosen); $("count").textContent=filtered?`検索結果 ${eface.length+hw.length}件`:"";
  $("cards").innerHTML=eface.map((j,i)=>cardHtml(j,i,false)).join("")||"<p>該当するおすすめ求人がありません。</p>";
  $("hwCards").innerHTML=hw.map((j,i)=>cardHtml(j,i,true)).join("")||"<p>該当するハローワーク求人がありません。</p>";
  document.querySelectorAll(".card").forEach(e=>e.onclick=()=>show(e.dataset.id));
