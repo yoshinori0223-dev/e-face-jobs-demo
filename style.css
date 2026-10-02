@@ -57,3 +57,7 @@ body{padding-top:0}
  .main-nav{display:none}
  .register-btn{margin-left:auto;font-size:10px;padding:9px 10px}
 }
+
+/* v16: clean hero image below functional header */
+.hero-photo{width:100%;height:auto;display:block;object-fit:contain;object-position:center top}
+@media(max-width:800px){.hero-photo{width:100%;height:auto;object-fit:contain;object-position:center top}}
