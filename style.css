@@ -42,3 +42,18 @@ body{padding-top:0}
 .register-bar button{border:0;background:#0968cc;color:#fff;border-radius:8px;padding:11px 18px;font-weight:800}
 .hero-register{display:none!important}
 @media(max-width:800px){.register-bar{height:46px;padding:0 12px}.register-bar button{font-size:10px;padding:9px 12px}}
+
+/* v15: single compact header using approved candidate1 artwork */
+.register-bar{display:none!important}
+.main-header{height:78px;display:grid;grid-template-columns:minmax(250px,320px) 1fr 150px;align-items:center;gap:24px;padding:0 5%;background:#fff;border-bottom:1px solid #e7edf4}
+.brand-link{display:flex;align-items:center;min-width:0}
+.brand-link img{display:block;width:245px;height:auto;max-height:60px;object-fit:contain;object-position:left center}
+.main-nav{display:flex;justify-content:center;align-items:center;gap:34px;white-space:nowrap}
+.main-nav a{color:#062e59;text-decoration:none;font-weight:800;font-size:13px}
+.register-btn{justify-self:end;border:0;background:#0968cc;color:#fff;border-radius:8px;padding:13px 18px;font-weight:800;white-space:nowrap}
+@media(max-width:800px){
+ .main-header{height:62px;display:flex;padding:0 12px;gap:8px}
+ .brand-link img{width:190px;max-height:46px}
+ .main-nav{display:none}
+ .register-btn{margin-left:auto;font-size:10px;padding:9px 10px}
+}
