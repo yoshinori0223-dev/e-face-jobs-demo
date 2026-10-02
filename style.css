@@ -17,3 +17,10 @@ header>button{justify-self:end}
  .logo b{font-size:19px}
  .logo small{display:none}
 }
+/* approved candidate 1 header artwork v10 */
+.header-logo-img{display:block;width:270px;height:auto;max-height:62px;object-fit:contain;object-position:left center}
+header .logo{width:270px;overflow:visible}
+@media(max-width:800px){
+ .header-logo-img{width:205px;max-height:48px}
+ header .logo{width:205px}
+}
