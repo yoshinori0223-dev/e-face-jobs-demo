@@ -57,3 +57,26 @@ Verified with real public jobs:
 - second run with previous snapshot: 0 detail fetches, 5 reused existing records
 
 Synthetic diff regression also verifies 1 new / 1 active / 1 changed / 1 ended_candidate.
+
+
+## Closure recheck and lifecycle merge
+
+`hellowork_closure_recheck_test.py` rechecks jobs that disappeared from the current search snapshot.
+
+Closure safety:
+- disappearance from the search result alone never closes a job
+- HTTP 404/410 or an explicit closed/unavailable marker can classify the job as `closed`
+- a still-readable public detail page restores the job as `still_active`
+- ambiguous/non-public/error cases become `review_required`
+
+Verified with 3 real currently public jobs deliberately treated as ended candidates:
+- closed: 0
+- still_active: 3
+- review_required: 0
+
+`hellowork_state_merge_test.py` then merges current discovery, previous snapshot, and closure recheck evidence into lifecycle states:
+- `active`
+- `closed`
+- `review_required`
+
+Synthetic lifecycle regression passed with active=3 / closed=1 / review_required=1.
