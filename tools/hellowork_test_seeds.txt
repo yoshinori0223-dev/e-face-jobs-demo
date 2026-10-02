@@ -1,0 +1,7 @@
+# E-FACE JOBS / Hello Work small-scale test seeds
+# Test only. These URLs are not connected to the public demo.
+https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?action=dispDetailBtn&kJKbn=1&kJNo=40010-57766561&screenId=GECA110010
+https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?action=dispDetailBtn&kJKbn=1&kJNo=40010-57764661&screenId=GECA110010
+https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?action=dispDetailBtn&kJKbn=1&kJNo=40010-47862961&screenId=GECA110010
+https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?action=dispDetailBtn&kJKbn=1&kJNo=40010-48619761&screenId=GECA110010
+https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?action=dispDetailBtn&kJKbn=1&kJNo=40010-48839961&screenId=GECA110010
