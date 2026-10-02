@@ -371,3 +371,77 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
  .recommend-card .body h3{font-size:13px!important;line-height:1.4!important;margin-bottom:5px!important}
  .recommend-card .pay{font-size:15px!important;margin:7px 0!important}
 }
+
+/* v40 initial-design card fidelity */
+@media (min-width:801px){
+  .recommend-cards{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:16px!important;
+  }
+  .recommend-card{
+    border:1px solid #dbe5ee!important;
+    border-radius:11px!important;
+    background:#fff!important;
+    overflow:hidden!important;
+  }
+  .recommend-card .pic{
+    height:94px!important;
+    min-height:94px!important;
+    max-height:94px!important;
+    background:#eef6fb!important;
+  }
+  .recommend-card .pic img{
+    width:100%!important;
+    height:94px!important;
+    min-height:0!important;
+    max-height:94px!important;
+    object-fit:cover!important;
+    object-position:center 18%!important;
+    display:block!important;
+  }
+  .recommend-card .body{
+    padding:11px 12px 12px!important;
+  }
+  .recommend-card .body h3{
+    font-size:13px!important;
+    line-height:1.45!important;
+    font-weight:800!important;
+    color:#092b5b!important;
+    margin:0 0 5px!important;
+  }
+  .recommend-card .meta{
+    font-size:10px!important;
+    line-height:1.4!important;
+    color:#58708b!important;
+    margin:3px 0!important;
+  }
+  .recommend-card .pay{
+    font-size:16px!important;
+    line-height:1.25!important;
+    margin:8px 0 7px!important;
+    color:#ef4038!important;
+    font-weight:900!important;
+  }
+  .recommend-card .tags{
+    display:flex!important;
+    gap:5px!important;
+    flex-wrap:wrap!important;
+  }
+  .recommend-card .tags span{
+    margin:0!important;
+    padding:4px 7px!important;
+    border-radius:5px!important;
+    background:#eaf4ff!important;
+    color:#0874d5!important;
+    font-size:9px!important;
+    line-height:1.2!important;
+  }
+  .recommend-label{
+    left:10px!important;
+    top:9px!important;
+    padding:4px 10px!important;
+    border-radius:7px!important;
+    font-size:10px!important;
+    box-shadow:none!important;
+  }
+}
