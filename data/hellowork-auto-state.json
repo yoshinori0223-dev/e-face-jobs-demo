@@ -35,7 +35,7 @@
         "job_number": "27010-44895761",
         "search_location": "福岡県福岡市東区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
@@ -68,7 +68,7 @@
         "job_number": "27010-44897961",
         "search_location": "福岡県福岡市西区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
@@ -101,7 +101,7 @@
         "job_number": "27010-44898161",
         "search_location": "福岡県福岡市南区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
@@ -134,7 +134,7 @@
         "job_number": "33032-02200861",
         "search_location": "福岡県福岡市博多区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
@@ -167,7 +167,7 @@
         "job_number": "37010-25078161",
         "search_location": "福岡県福岡市南区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
