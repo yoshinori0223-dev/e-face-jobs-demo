@@ -1,0 +1,42 @@
+name: Hello Work small-scale test
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_jobs:
+        description: "Maximum number of test jobs (1-10)"
+        required: true
+        default: "5"
+
+permissions:
+  contents: read
+
+jobs:
+  test-fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Run small-scale fetch test
+        run: |
+          python tools/hellowork_fetch_test.py \
+            --max "${{ inputs.max_jobs }}" \
+            --delay 4 \
+            --output data/hellowork-test-output.json
+
+      - name: Upload result artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hellowork-small-test
+          path: data/hellowork-test-output.json
+          if-no-files-found: error
