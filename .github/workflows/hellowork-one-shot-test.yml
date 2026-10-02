@@ -1,4 +1,4 @@
-name: Hello Work one-shot verification
+name: Hello Work one-shot verification v2
 
 on:
   push:
