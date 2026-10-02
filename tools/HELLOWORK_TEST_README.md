@@ -36,3 +36,24 @@ Current safeguards:
 - minimum 3 seconds between detail requests
 - second location/public checks on the detail page
 - output artifact only; no Pages publication
+
+
+## Incremental update / diff test
+
+`hellowork_diff_test.py` compares current and previous snapshots by Hello Work job number.
+
+It classifies:
+- `new`
+- `active`
+- `changed`
+- `ended_candidate`
+
+Important: `ended_candidate` is not deleted immediately. Because the current discovery scope is first-page-only, disappearance from the current snapshot is only a recheck signal.
+
+`hellowork_discovery_test.py --previous <snapshot.json>` reuses detail data for job numbers already present in the previous snapshot. Existing jobs are not detail-fetched again. Only newly discovered job numbers are sent to the detail parser.
+
+Verified with real public jobs:
+- first run: 5 detail fetches
+- second run with previous snapshot: 0 detail fetches, 5 reused existing records
+
+Synthetic diff regression also verifies 1 new / 1 active / 1 changed / 1 ended_candidate.
