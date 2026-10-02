@@ -1,0 +1,5 @@
+const HELLOWORK_JOBS=[
+{id:"hw-demo-1",source:"hellowork-demo",title:"一般事務スタッフ（ハローワーク連携デモ）",company:"福岡サンプル株式会社（架空）",area:"福岡市中央区",cat:"オフィスワーク",type:"正社員",pay:"月給 220,000円〜260,000円",tags:["ハローワーク求人","土日祝休み"],hwNo:"40010-DEMO001",fetched:"2026/10/02",sourceLabel:"ハローワーク求人（連携デモ）"},
+{id:"hw-demo-2",source:"hellowork-demo",title:"倉庫内作業スタッフ（ハローワーク連携デモ）",company:"博多サンプル物流株式会社（架空）",area:"福岡市博多区",cat:"軽作業・物流",type:"契約社員",pay:"時給 1,350円〜1,500円",tags:["ハローワーク求人","未経験OK"],hwNo:"40010-DEMO002",fetched:"2026/10/02",sourceLabel:"ハローワーク求人（連携デモ）"},
+{id:"hw-demo-3",source:"hellowork-demo",title:"コールセンタースタッフ（ハローワーク連携デモ）",company:"天神サンプルサービス株式会社（架空）",area:"福岡市中央区天神",cat:"コールセンター",type:"アルバイト・パート",pay:"時給 1,400円〜",tags:["ハローワーク求人","未経験OK"],hwNo:"40010-DEMO003",fetched:"2026/10/02",sourceLabel:"ハローワーク求人（連携デモ）"}
+];
