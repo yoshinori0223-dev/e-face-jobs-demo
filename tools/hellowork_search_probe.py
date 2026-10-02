@@ -35,7 +35,21 @@ for i,f in enumerate(soup.find_all("form")):
         "fields":fields,
     })
 
-out={"url":URL,"forms":forms}
+snippets={}
+raw=r.text
+for key in ["todohukenHidden","siku","市区町村","codeAssist"]:
+    hits=[]
+    pos=0
+    while True:
+        i=raw.find(key,pos)
+        if i<0 or len(hits)>=20:
+            break
+        hits.append(raw[max(0,i-500):min(len(raw),i+1000)])
+        pos=i+len(key)
+    snippets[key]=hits
+
+scripts=[x.get("src") for x in soup.find_all("script") if x.get("src")]
+out={"url":URL,"forms":forms,"scripts":scripts,"snippets":snippets}
 Path("data/hellowork-search-form-probe.json").parent.mkdir(parents=True,exist_ok=True)
 Path("data/hellowork-search-form-probe.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
 print("forms",len(forms))
