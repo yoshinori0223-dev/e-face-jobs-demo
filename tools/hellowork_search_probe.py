@@ -49,7 +49,26 @@ for key in ["todohukenHidden","siku","市区町村","codeAssist"]:
     snippets[key]=hits
 
 scripts=[x.get("src") for x in soup.find_all("script") if x.get("src")]
-out={"url":URL,"forms":forms,"scripts":scripts,"snippets":snippets}
+js_snippets={}
+base="https://www.hellowork.mhlw.go.jp/kensaku/"
+for src in scripts:
+    if src and ("AssistCode" in src or "ECZ110010" in src or "ECZ110.js" in src):
+        try:
+            jr=requests.get(base+src, timeout=30, headers={"User-Agent":"E-FACE-JOBS-research/0.1"})
+            txt=jr.text
+            hits=[]
+            for key in ["openTodofukenModal","TODOUFUKEN_FUNC","todohukenHidden","codeAssist"]:
+                pos=0
+                while True:
+                    i=txt.find(key,pos)
+                    if i<0 or len(hits)>=30:
+                        break
+                    hits.append(txt[max(0,i-800):min(len(txt),i+1800)])
+                    pos=i+len(key)
+            js_snippets[src]=hits
+        except Exception as e:
+            js_snippets[src]=[str(e)]
+out={"url":URL,"forms":forms,"scripts":scripts,"snippets":snippets,"js_snippets":js_snippets}
 Path("data/hellowork-search-form-probe.json").parent.mkdir(parents=True,exist_ok=True)
 Path("data/hellowork-search-form-probe.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
 print("forms",len(forms))
