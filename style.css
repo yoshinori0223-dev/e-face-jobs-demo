@@ -498,3 +498,27 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
     object-position:center center!important;
   }
 }
+
+
+/* v44 mobile E-FACE card override: beat legacy .cards .card rules */
+@media (max-width:800px){
+  .recommend-cards .recommend-card{
+    display:block!important;
+    grid-template-columns:none!important;
+  }
+  .recommend-cards .recommend-card .pic{
+    width:100%!important;
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:640/194!important;
+  }
+  .recommend-cards .recommend-card .pic img{
+    width:100%!important;
+    height:100%!important;
+    min-height:0!important;
+    max-height:none!important;
+    object-fit:cover!important;
+    object-position:center center!important;
+  }
+}
