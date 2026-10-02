@@ -1,0 +1,31 @@
+name: Hello Work one-shot verification
+
+on:
+  push:
+    paths:
+      - ".github/workflows/hellowork-one-shot-test.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Fetch five public test jobs
+        run: |
+          python tools/hellowork_fetch_test.py \
+            --max 5 \
+            --delay 4 \
+            --output data/hellowork-test-output.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hellowork-one-shot-result
+          path: data/hellowork-test-output.json
+          if-no-files-found: error
