@@ -445,3 +445,21 @@ details{border-top:1px solid #e1eaf2;padding:16px 0}summary{font-weight:800;colo
     box-shadow:none!important;
   }
 }
+
+/* v41 HQ top-card images: preserve source ratio, no destructive crop */
+@media (min-width:801px){
+  .recommend-card .pic{
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:640/194!important;
+  }
+  .recommend-card .pic img{
+    width:100%!important;
+    height:100%!important;
+    min-height:0!important;
+    max-height:none!important;
+    object-fit:cover!important;
+    object-position:center center!important;
+  }
+}
