@@ -28,7 +28,7 @@ function render(){
  const eface=EFACE_JOBS.filter(matches);
  const hw=HW_LIVE.filter(matches);
  $("count").textContent=`検索結果 ${eface.length+hw.length}件`;
- $("cards").innerHTML=eface.slice(0,3).map((j,i)=>cardHtml(j,i,false)).join("")||"<p>該当するおすすめ求人がありません。</p>";
+ $("cards").innerHTML=eface.map((j,i)=>cardHtml(j,i,false)).join("")||"<p>該当するおすすめ求人がありません。</p>";
  $("hwCards").innerHTML=hw.map((j,i)=>cardHtml(j,i,true)).join("")||"<p>該当するハローワーク求人がありません。</p>";
  document.querySelectorAll(".card").forEach(e=>e.onclick=()=>show(e.dataset.id));
 }
