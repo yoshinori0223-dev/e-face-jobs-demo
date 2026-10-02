@@ -1,0 +1,73 @@
+name: Hello Work integrated dry-run
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "tools/hellowork_*.py"
+      - "tools/HELLOWORK_TEST_README.md"
+      - ".github/workflows/hellowork-integrated-dry-run.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Regression tests
+        run: |
+          python tools/hellowork_diff_regression_test.py
+          python tools/hellowork_closure_regression_test.py
+          python tools/hellowork_state_merge_regression_test.py
+
+      - name: Prepare previous snapshot
+        run: |
+          mkdir -p data
+          if [ ! -f data/hellowork-auto-state.json ]; then
+            printf '{"results":[]}' > data/hellowork-auto-state.json
+          fi
+
+      - name: Discover current public jobs
+        run: |
+          python tools/hellowork_discovery_test.py             --max 5             --delay 4             --previous data/hellowork-auto-state.json             --output data/hellowork-auto-current.json
+
+      - name: Diff
+        run: |
+          python tools/hellowork_diff_test.py             --current data/hellowork-auto-current.json             --previous data/hellowork-auto-state.json             --output data/hellowork-auto-diff.json
+
+      - name: Closure recheck
+        run: |
+          python tools/hellowork_closure_recheck_test.py             --diff data/hellowork-auto-diff.json             --max 10             --delay 4             --output data/hellowork-auto-closure.json
+
+      - name: Lifecycle merge
+        run: |
+          python tools/hellowork_state_merge_test.py             --current data/hellowork-auto-current.json             --previous data/hellowork-auto-state.json             --closure data/hellowork-auto-closure.json             --output data/hellowork-auto-merged.json
+
+      - name: Build display candidate
+        run: |
+          python tools/hellowork_publish_candidate.py             --merged data/hellowork-auto-merged.json             --output data/hellowork-live-candidate.js             --max 3
+
+      - name: Safety check - public file unchanged
+        run: git diff --exit-code -- hellowork-live-test.js
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hellowork-integrated-dry-run
+          path: |
+            data/hellowork-auto-current.json
+            data/hellowork-auto-diff.json
+            data/hellowork-auto-closure.json
+            data/hellowork-auto-merged.json
+            data/hellowork-live-candidate.js
+          if-no-files-found: error
