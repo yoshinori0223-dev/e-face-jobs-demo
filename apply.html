@@ -1,4 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>求人応募 | E-FACE JOBS</title><link rel="stylesheet" href="style.css?v=20261002-26"></head><body>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>求人応募 | E-FACE JOBS</title><link rel="stylesheet" href="style.css?v=20261002-34"></head><body>
 <header class="main-header"><a class="brand-link" href="index.html"><img src="eface_header_logo_candidate1.png" alt="E-FACE JOBS"></a><nav class="main-nav"><a href="jobs.html">求人を探す</a><a href="features.html">お仕事特集</a><a href="guide.html">はじめての方へ</a><a href="employers.html">企業のご担当者様へ</a><a href="company.html">運営会社</a></nav><button class="register-btn" onclick="location.href='register.html'">新規登録（無料）</button></header>
 <main class="demo-page apply-page"><section class="page-hero"><small>APPLICATION</small><h1>求人に応募する</h1><p>入力 → 内容確認 → 応募完了までを体験できるデモです。入力内容は送信・保存されません。</p></section>
 <div class="apply-steps"><b class="on" id="s1">1 入力</b><b id="s2">2 確認</b><b id="s3">3 完了</b></div>
@@ -13,5 +13,5 @@ jobName.textContent=job; companyName.textContent=company;
 const vals=()=>[['応募求人',job],['掲載企業',company],['お名前',name.value],['ふりがな',kana.value],['メールアドレス',email.value],['電話番号',tel.value],['生年月日',birth.value||'未入力'],['現在の職業',status.value],['メッセージ',message.value||'未入力']];
 applyForm.onsubmit=e=>{e.preventDefault();confirmData.innerHTML=vals().map(x=>'<div><b>'+x[0]+'</b><span>'+String(x[1]).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))+'</span></div>').join('');formPane.classList.add('hide');confirmPane.classList.remove('hide');s1.classList.remove('on');s2.classList.add('on');scrollTo({top:0,behavior:'smooth'})};
 backBtn.onclick=()=>{confirmPane.classList.add('hide');formPane.classList.remove('hide');s2.classList.remove('on');s1.classList.add('on')};
-sendBtn.onclick=()=>{confirmPane.classList.add('hide');completePane.classList.remove('hide');s2.classList.remove('on');s3.classList.add('on');scrollTo({top:0,behavior:'smooth'})};
+sendBtn.onclick=()=>{const rec={date:new Date().toLocaleString('ja-JP'),job,company,name:name.value,email:email.value,tel:tel.value,status:'未対応'};localStorage.setItem('efaceDemoApplication',JSON.stringify(rec));confirmPane.classList.add('hide');completePane.classList.remove('hide');s2.classList.remove('on');s3.classList.add('on');scrollTo({top:0,behavior:'smooth'})};
 </script></body></html>
