@@ -13,7 +13,7 @@ const HELLOWORK_LIVE_TEST_JOBS=[
       "正社員"
     ],
     "hwNo": "37010-25078161",
-    "fetched": "2026/10/02",
+    "fetched": "2026/10/03",
     "received": "2026年10月2日",
     "deadline": "2026年12月31日",
     "sourceLabel": "ハローワーク公開求人・テスト表示",
@@ -36,7 +36,7 @@ const HELLOWORK_LIVE_TEST_JOBS=[
       "契約社員"
     ],
     "hwNo": "33032-02200861",
-    "fetched": "2026/10/02",
+    "fetched": "2026/10/03",
     "received": "2026年10月2日",
     "deadline": "2026年12月31日",
     "sourceLabel": "ハローワーク公開求人・テスト表示",
@@ -59,7 +59,7 @@ const HELLOWORK_LIVE_TEST_JOBS=[
       "正社員"
     ],
     "hwNo": "27010-44898161",
-    "fetched": "2026/10/02",
+    "fetched": "2026/10/03",
     "received": "2026年10月2日",
     "deadline": "2026年12月31日",
     "sourceLabel": "ハローワーク公開求人・テスト表示",
