@@ -1,12 +1,177 @@
 {
   "test_only": true,
   "summary": {
-    "active": 8,
+    "active": 13,
     "closed": 0,
     "review_required": 0,
-    "total": 8
+    "total": 13
   },
   "results": [
+    {
+      "id": "hw-1312021159061",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1312021159061&kJKbn=1&jGSHNo=klRs66UbesoYdDKfUWgVYg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13120-21159061",
+      "title": "倉庫内軽作業（福祉用具メンテナンス）／福岡Ｍセンター",
+      "company": "パラマウントケアサービス 株式会社",
+      "location": "〒812-0051 福岡県福岡市東区箱崎ふ頭５－１－１２ パラマウントケアサービス（株） 福岡メンテナンスセンター",
+      "employment_type": "正社員以外 正社員以外の名称 契約社員 正社員登用の有無 あり 正社員登用の実績（過去３年間） １名（福岡メンテナンスセンター実績）",
+      "description": "＊倉庫内で福祉用具（介護用ベッド・車椅子等）の点検・洗浄・ 簡単なメンテナンス、その他倉庫内作業のお仕事です。 ＊レンタル終了で返却された商品を高圧洗浄機で汚れを落とし、 乾燥殺菌消毒後、仕上げ作業や梱包などを行います。 ＊作業場は建物内で冷暖房完備。屋外での作業はほとんどなく、 快適な環境でのお仕事です。 ＊重荷物（１８ｋｇ）の取り扱うため、相応の体力が必要です。 ＊定期的に商品知識の勉強会を実施しますので、未経験者の方でも 安心してスタートできます。 ＊高齢化社会に不可欠な社会貢献性の高い仕事です。 ＊２０代から６０代の方々が活躍中。 【変更範囲：変更無し】",
+      "wage": "月給 196,000円〜212,340円",
+      "working_hours": "変形労働時間制 変形労働時間制の単位 １年単位 就業時間１ 8時30分〜17時30分",
+      "holidays": "休日 日曜日，祝日，その他 週休二日制 その他 その他 土曜日は月１回出勤あり 年末年始休暇・一斉夏季休暇・個別夏季休暇・誕生日休暇 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月5日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "墨田公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-06T00:10:21.432014+00:00",
+      "last_checked_at": "2026-10-06T00:10:21.432029+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13120-21159061",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-2302066307761",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2302066307761&kJKbn=1&jGSHNo=lQDOTYNuB5M3WTGLg1DL%2Bw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "23020-66307761",
+      "title": "【未経験者歓迎】きもの・和雑貨の販売接客／福岡市東区",
+      "company": "株式会社 ＢＡＮＫＡＮわものや",
+      "location": "〒812-0055 福岡県福岡市東区東浜１丁目１－１ ゆめタウン博多２階 わものや博多店",
+      "employment_type": "正社員",
+      "description": "ショッピングモール内の店舗できものをファッションとして提案し きものや和雑貨を販売するお仕事です。 将来的には、店内レイアウト、ＰＯＰ作成、イベント運営など 幅広い業務を経験できます。 きものが好き、キャリア形成をしたい、人と話すことが好き。 そんな皆さんのチャレンジを歓迎します。（未経験者歓迎） ★研修充実で長く働き続けられる環境です。 各種保険完備、ミドル含むシニア層歓迎・子育て応援 当社は全国のショッピングモールに店舗を展開中です 「働き方改革関連認定企業」（変更範囲：原則なし）",
+      "wage": "月給 211,200円〜211,200円",
+      "working_hours": "交替制（シフト制） 又は 9時30分〜21時00分の時間の間の8時間 就業時間に関する特記事項 １日実働８時間、休憩１時間のシフト勤務です。勤務時間は 繁忙期や閑散期により多少異なります。勤務開始時間は店舗の 開店時間により多少異なります。面接時にご案内いたします。 公休日希望や時間に関しては、お気軽にご相談ください。",
+      "holidays": "休日 その他 週休二日制 毎週 その他 交代制 月に８～９日程度の公休 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月5日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "名古屋中公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-06T00:10:25.944175+00:00",
+      "last_checked_at": "2026-10-06T00:10:25.944190+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "23020-66307761",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-2302066309961",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2302066309961&kJKbn=1&jGSHNo=lQDOTYNuB5M3WTGLg1DL%2Bw%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "23020-66309961",
+      "title": "【未経験歓迎】きもの・和雑貨の販売接客／福岡県福岡市",
+      "company": "株式会社 ＢＡＮＫＡＮわものや",
+      "location": "〒810-8639 福岡県福岡市中央区地行浜２－２－１ マークイズ福岡ももち２Ｆ わものや百地店",
+      "employment_type": "正社員",
+      "description": "ショッピングモール内の店舗できものをファッションとして提案し きものや和雑貨を販売するお仕事です。 将来的には、店内レイアウト、ＰＯＰ作成、イベント運営など 幅広い業務を経験できます。 きものが好き、キャリア形成をしたい、人と話すことが好き。 そんな皆さんのチャレンジを歓迎します。（未経験者歓迎） ★研修充実で長く働き続けられる環境です。 各種保険完備、ミドル含むシニア層歓迎・子育て応援 当社は全国のショッピングモールに店舗を展開中です 「働き方改革関連認定企業」（変更範囲：原則なし）",
+      "wage": "月給 211,200円〜211,200円",
+      "working_hours": "交替制（シフト制） 又は 9時30分〜21時00分の時間の間の8時間程度 就業時間に関する特記事項 １日実働８時間、休憩１時間のシフト制です。勤務時間は繁忙期や 閑散期により多少異なります。勤務開始時間は店舗のＯＰＥＮ時間 により多少異なります。面接時にご案内いたします。公休日希望や 時間に関しては、お気軽にご相談ください。",
+      "holidays": "休日 その他 週休二日制 毎週 その他 交代制 月に８～９日程度の公休 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月5日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "名古屋中公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-06T00:10:30.528158+00:00",
+      "last_checked_at": "2026-10-06T00:10:30.528170+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "23020-66309961",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-2302066311661",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2302066311661&kJKbn=1&jGSHNo=lQDOTYNuB5M3WTGLg1DL%2Bw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "23020-66311661",
+      "title": "【未経験者歓迎】きもの・和雑貨の販売接客／福岡市東区",
+      "company": "株式会社 ＢＡＮＫＡＮわものや",
+      "location": "〒812-0055 福岡県福岡市東区東浜１丁目１－１ ゆめタウン博多２階 わものや博多店",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） ３３名",
+      "description": "ショッピングモール内の店舗できものをファッションとして提案し きものや和雑貨を販売するお仕事です。 将来的には、店内レイアウト、ＰＯＰ作成、イベント運営など 幅広い業務を経験できます。 きものが好き、キャリア形成をしたい、人と話すことが好き。 そんな皆さんのチャレンジを歓迎します。（未経験者歓迎） ★研修充実で長く働き続けられる環境です。 各種保険完備、ミドル含むシニア層歓迎・子育て応援、正社員へキ ャリアアップ 当社は全国のショッピングモールに店舗を展開中です 「働き方改革関連認定企業」（変更範囲：原則なし） 「高齢者応援求人」",
+      "wage": "時給 1,200円〜1,200円",
+      "working_hours": "交替制（シフト制） 又は 9時30分〜21時00分の時間の間の6時間程度 就業時間に関する特記事項 １日実働６時間、休憩１時間のシフト勤務です。勤務時間は繁忙期 や閑散期により多少異なります。勤務開始時間は店舗のＯＰＥＮ時 間により多少異なります。面接時にご案内いたします。公休日希望 や時間に関しては、お気軽にご相談ください。",
+      "holidays": "休日 その他 週休二日制 毎週 その他 交代制 月に８～９日程度の公休 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月5日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "名古屋中公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-06T00:10:35.239800+00:00",
+      "last_checked_at": "2026-10-06T00:10:35.239814+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "23020-66311661",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-2302066312261",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2302066312261&kJKbn=1&jGSHNo=lQDOTYNuB5M3WTGLg1DL%2Bw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "23020-66312261",
+      "title": "きもの・和雑貨の販売接客／福岡県福岡市",
+      "company": "株式会社 ＢＡＮＫＡＮわものや",
+      "location": "〒810-8639 福岡県福岡市中央区地行浜２－２－１ マークイズ福岡ももち２Ｆ わものや百地店",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） ３３名登用",
+      "description": "ショッピングモール内の店舗できものをファッションとして提案し きものや和雑貨を販売するお仕事です。 将来的には、店内レイアウト、ＰＯＰ作成、イベント運営など 幅広い業務を経験できます。 きものが好き、キャリア形成をしたい、人と話すことが好き。 そんな皆さんのチャレンジを歓迎します。（未経験者歓迎） ★研修充実で長く働き続けられる環境です。 各種保険完備、ミドル含むシニア層歓迎・子育て応援、正社員へキ ャリアアップ 当社は全国のショッピングモールに店舗を展開中です 「働き方改革関連認定企業」（変更範囲：原則なし） 「高齢者応援求人」",
+      "wage": "時給 1,200円〜1,200円",
+      "working_hours": "交替制（シフト制） 又は 9時30分〜21時00分の時間の間の6時間 就業時間に関する特記事項 １日実働６時間、休憩１時間のシフト制です。勤務時間は繁忙期や 閑散期により多少異なります。勤務開始時間は店舗のＯＰＥＮ時間 により多少異なります。面接時にご案内いたします。公休日希望や 時間に関しては、お気軽にご相談ください。",
+      "holidays": "休日 その他 週休二日制 毎週 その他 交代制 月に８～９日程度の公休 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月5日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "名古屋中公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-06T00:10:39.751543+00:00",
+      "last_checked_at": "2026-10-06T00:10:39.751555+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "23020-66312261",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
     {
       "id": "hw-4001060571061",
       "source_type": "hellowork",
@@ -38,7 +203,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-4001060572361",
@@ -71,7 +237,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-4019007225061",
@@ -104,7 +271,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2701044895761",
@@ -137,7 +305,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2701044897961",
@@ -170,7 +339,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2701044898161",
