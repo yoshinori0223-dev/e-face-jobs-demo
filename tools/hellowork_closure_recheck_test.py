@@ -94,11 +94,11 @@ def main():
     ap.add_argument("--diff",required=True)
     ap.add_argument("--output",default="data/hellowork-closure-recheck.json")
     ap.add_argument("--delay",type=float,default=4.0)
-    ap.add_argument("--max",type=int,default=10)
+    ap.add_argument("--max",type=int,default=30)
     args=ap.parse_args()
 
     payload=json.loads(Path(args.diff).read_text(encoding="utf-8"))
-    rows=payload.get("ended_candidate",[])[:max(1,min(args.max,10))]
+    rows=payload.get("ended_candidate",[])[:max(1,min(args.max,30))]
 
     session=requests.Session()
     session.headers.update({"User-Agent":USER_AGENT,"Accept-Language":"ja,en;q=0.5"})
