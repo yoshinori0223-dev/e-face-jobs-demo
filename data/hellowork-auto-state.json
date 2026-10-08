@@ -1,12 +1,177 @@
 {
   "test_only": true,
   "summary": {
-    "active": 13,
+    "active": 18,
     "closed": 0,
     "review_required": 0,
-    "total": 13
+    "total": 18
   },
   "results": [
+    {
+      "id": "hw-4012025996461",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4012025996461&kJKbn=1&jGSHNo=yD6BwLVqbVqXCDSabdG0yQ%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "40120-25996461",
+      "title": "営業・管理業務（総合職）／正",
+      "company": "株式会社ジャパンクリエイト 福岡営業所",
+      "location": "〒813-0019 福岡県福岡市東区みなと香椎４－１－１ Ｔ－ＬＯＧ１ 福岡アイランドシティ６階",
+      "employment_type": "正社員",
+      "description": "人材コーディネーター、スタッフへの巡回サポート、労務管理等。 大手メーカー内に勤務中の当社スタッフの就業フォローやお客様 との打合せ、書類作成や採用業務などが主な業務となります。 ≪アプローチ≫ 企業に電話をかけて人材ニーズを伺ったり、取引のある企業を訪れ て新たなニーズを獲得します。 ≪マッチング≫ 企業と求職者のそれぞれから希望・条件を聞き、最適なマッチング を図ります。 ≪フォロー≫ 定期的な面談・労務管理などを行います。丁寧なフォローが大きな 信頼を育みます。 「変更の範囲」会社の定める業務全般",
+      "wage": "月給 275,000円〜340,000円",
+      "working_hours": "フレックスタイム制 就業時間１ 9時00分〜18時00分 就業時間に関する特記事項 （１）標準時間 コアタイム、フレキシブルタイムなしのフレック スタイム制を導入しています。",
+      "holidays": "休日 土曜日，日曜日，祝日，その他 その他 年末年始休暇・夏季休暇 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "福岡東公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-08T01:16:35.620695+00:00",
+      "last_checked_at": "2026-10-08T01:16:35.620712+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "40120-25996461",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1308096945961",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308096945961&kJKbn=1&jGSHNo=X%2B686DbOillXUxoOGDs%2BTA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13080-96945961",
+      "title": "ゲームのカスタマーサポート（リーダー・リーダー候補）福岡",
+      "company": "株式会社 コンフィデンス・インターワークス",
+      "location": "〒810-0001 福岡県福岡市中央区天神１丁目４番１号 西日本新聞会館１５階 当社 福岡支店",
+      "employment_type": "正社員",
+      "description": "コンシューマーゲーム、ソーシャルゲーム、オンラインゲームなど のカスタマーサポート業務 （ユーザーからの問合せ対応（メール）、問合せ傾向分析等） ＊変更範囲：会社の定める業務",
+      "wage": "月給 190,000円〜350,000円",
+      "working_hours": "就業時間１ 9時00分〜18時00分",
+      "holidays": "休日 日曜日，祝日，その他 週休二日制 毎週 その他 初年度有給休暇１０日、ＧＷ、夏季、年末年始有※当社カレンダー による（土日が休日となり、祝日のある週の土曜日は原則出勤） ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "新宿公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-08T01:16:40.341968+00:00",
+      "last_checked_at": "2026-10-08T01:16:40.341984+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13080-96945961",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1308096948361",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308096948361&kJKbn=1&jGSHNo=X%2B686DbOillXUxoOGDs%2BTA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13080-96948361",
+      "title": "ゲームプランナー／福岡支店／天神南駅３分",
+      "company": "株式会社 コンフィデンス・インターワークス",
+      "location": "〒810-0001 福岡県福岡市中央区天神１丁目４番１号 西日本新聞会館１５階 当社 福岡支店",
+      "employment_type": "正社員",
+      "description": "コンシューマーゲーム、ソーシャルゲーム、オンラインゲームなど のゲームのプランニング業務全般 ・新規タイトルの仕様書作成、レベルデザイン、 パラメータ設定、バランス調整 ・運営タイトルのイベント企画、運営 など ＊変更範囲：会社の定める業務",
+      "wage": "月給 190,000円〜350,000円",
+      "working_hours": "就業時間１ 9時00分〜18時00分",
+      "holidays": "休日 日曜日，祝日，その他 週休二日制 毎週 その他 初年度有給休暇１０日、ＧＷ、夏季、年末年始有※当社カレンダー による（土日が休日となり、祝日のある週の土曜日は原則出勤） ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "新宿公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-08T01:16:45.087168+00:00",
+      "last_checked_at": "2026-10-08T01:16:45.087187+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13080-96948361",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1308096954161",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308096954161&kJKbn=1&jGSHNo=X%2B686DbOillXUxoOGDs%2BTA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13080-96954161",
+      "title": "ゲームプログラマー／福岡支店",
+      "company": "株式会社 コンフィデンス・インターワークス",
+      "location": "〒810-0001 福岡県福岡市中央区天神１丁目４番１号 西日本新聞会館１５階 当社 福岡支店",
+      "employment_type": "正社員",
+      "description": "コンシューマーゲーム、ソーシャルゲームの開発（新規または既存 タイトル）業務 （Ｃ＋＋、Ｃ＃、Ｏｂｌｅｃｔｉｖｅ－Ｃ、Ｕｎｉｔｙ、 ｃｏｃｏｓ２ｄ－ｘ、Ｕｎｒｅａｌ Ｅｎｇｉｎｅ等） ＊変更範囲：会社の定める業務",
+      "wage": "月給 210,000円〜500,000円",
+      "working_hours": "就業時間１ 9時00分〜18時00分",
+      "holidays": "休日 日曜日，祝日，その他 週休二日制 毎週 その他 初年度有給休暇１０日、ＧＷ、夏季、年末年始有※当社カレンダー による（土日が休日となり、祝日のある週の土曜日は原則出勤） ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "新宿公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-08T01:16:49.917306+00:00",
+      "last_checked_at": "2026-10-08T01:16:49.917321+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13080-96954161",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1308096956361",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308096956361&kJKbn=1&jGSHNo=X%2B686DbOillXUxoOGDs%2BTA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13080-96956361",
+      "title": "ゲームのテスト・デバッグ（リーダー・リーダー候補）福岡",
+      "company": "株式会社 コンフィデンス・インターワークス",
+      "location": "〒810-0001 福岡県福岡市中央区天神１丁目４番１号 西日本新聞会館１５階 当社 福岡支店",
+      "employment_type": "正社員",
+      "description": "コンシューマーゲーム、ソーシャルゲーム、オンラインゲームなど のゲームのテスト・デバッグ業務 （具体的には、テスト仕様書作成やテスト実務、不具合報告・管理 スタッフ管理等を行って頂きます） ＊変更範囲：会社の定める業務",
+      "wage": "月給 190,000円〜350,000円",
+      "working_hours": "就業時間１ 9時00分〜18時00分",
+      "holidays": "休日 日曜日，祝日，その他 週休二日制 毎週 その他 初年度有給休暇１０日、ＧＷ、夏季、年末年始有※当社カレンダー による（土日が休日となり、祝日のある週の土曜日は原則出勤） ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "新宿公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-08T01:16:54.670866+00:00",
+      "last_checked_at": "2026-10-08T01:16:54.670882+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13080-96956361",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
     {
       "id": "hw-1312021159061",
       "source_type": "hellowork",
@@ -38,7 +203,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2302066307761",
@@ -71,7 +237,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2302066309961",
@@ -104,7 +271,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2302066311661",
@@ -137,7 +305,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2302066312261",
@@ -170,7 +339,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-4001060571061",
