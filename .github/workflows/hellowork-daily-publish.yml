@@ -55,7 +55,7 @@ jobs:
 
       - name: Closure recheck
         run: |
-          python tools/hellowork_closure_recheck_test.py             --diff data/hellowork-auto-diff.json             --max 10             --delay 4             --output data/hellowork-auto-closure.json
+          python tools/hellowork_closure_recheck_test.py             --diff data/hellowork-auto-diff.json             --max 30             --delay 4             --output data/hellowork-auto-closure.json
 
       - name: Lifecycle merge
         run: |
