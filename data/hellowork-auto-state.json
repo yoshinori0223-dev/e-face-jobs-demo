@@ -1,12 +1,177 @@
 {
   "test_only": true,
   "summary": {
-    "active": 18,
+    "active": 23,
     "closed": 0,
     "review_required": 0,
-    "total": 18
+    "total": 23
   },
   "results": [
+    {
+      "id": "hw-1308097597661",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308097597661&kJKbn=1&jGSHNo=25LuTPpN2dpq%2Fu8qBe5Cbw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13080-97597661",
+      "title": "調理および接客／３号線松崎店",
+      "company": "日本マクドナルド 株式会社",
+      "location": "〒813-0035 福岡県福岡市東区松崎２－４－２７",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） ２０８名登用",
+      "description": "マクドナルドでは多種多様な方（学生、主婦（夫）、シニア、外国 人等）が多数活躍しています。写真付きのマニュアルとカリキュラ ムに沿ったサポートで安心してスタートできます。 ・キッチンでの調理 ・レジカウンターでの接客・商品注文受付 ・その他、配膳、清掃など店舗運営に関わる業務 ＊全国のマクドナルドには約７千人のシニアスタッフ （６０歳～８０歳代の方）が在籍しています。 ＊外国人の方も多数活躍中（日本語のあいさつができる方、 カタカナが読める方） 【変更範囲：フロア担当業務】",
+      "wage": "時給 1,115円〜1,115円",
+      "working_hours": "就業時間１ 6時00分〜10時00分 就業時間２ 10時00分〜18時00分 就業時間３ 18時00分〜1時00分 就業時間に関する特記事項 （１）～（３）はシフト例 週１日２時間以上でご希望に応じた勤務が可能です",
+      "holidays": "休日 その他 週休二日制 毎週 ６ヶ月経過後の年次有給休暇日数 1日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "新宿公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-09T00:11:49.393635+00:00",
+      "last_checked_at": "2026-10-09T00:11:49.393652+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13080-97597661",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1311019413161",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1311019413161&kJKbn=1&jGSHNo=1sCoGdyl4cRI%2Ftx5pw5B1Q%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13110-19413161",
+      "title": "福岡支部長／福岡市",
+      "company": "公益財団法人 介護労働安定センター",
+      "location": "〒812-0011 福岡県福岡市博多区博多駅前３丁目３０－２６中央博多駅前ビル８ Ｆ",
+      "employment_type": "正社員以外 正社員以外の名称 準正規職員（６４歳以上の場合は嘱託職員） 正社員登用の有無 なし",
+      "description": "支部の総務、経理、業務運営の総括責任者 ・支部内（人事労務、総務、経理）の総括 ・支部事業計画の策定、実行 ・職業訓練、セミナーの総括 ・外部団体（行政機関、介護関係団体）との連絡調整 ・本部との連絡調整 等 ※事業所訪問等あり（公用車等使用） 【変更範囲：なし】",
+      "wage": "月給 291,240円〜296,352円",
+      "working_hours": "変形労働時間制 変形労働時間制の単位 １ヶ月単位 就業時間１ 8時30分〜17時00分",
+      "holidays": "休日 土曜日，日曜日，祝日，その他 その他 夏期休暇（４日間 ７月～９月）年末年始（１２／２９～１／３） ※基本的に土日祝は休みだが講習等で出勤の場合有り（振休）",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "足立公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-09T00:11:54.122919+00:00",
+      "last_checked_at": "2026-10-09T00:11:54.122934+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13110-19413161",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1702006191661",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1702006191661&kJKbn=1&jGSHNo=d%2BnUP9c7PbviSmMamLaCCg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "17020-06191661",
+      "title": "内装工事施工管理技術者（福岡）（未資格可）",
+      "company": "小松ウオール工業 株式会社",
+      "location": "〒812-0011 福岡県福岡市博多区博多駅前四丁目２－２０ 博多駅前Ｃ－９ビル８Ｆ 小松ウオール工業株式会社 福岡支店",
+      "employment_type": "正社員",
+      "description": "間仕切をオフィスビルや学校などに施工・納入するための 現場管理業務 ・納入打ち合わせ ・製品手配 ・工事管理 など 建築士、施工管理技士の資格取得補助有り また、上記資格を合格した場合の技能手当 ・１級建築士 ３万円 ・２級建築士 １万５千円 ・１級施工管理技士 １万５千円 ・２級施工管理技士 ８千円 ＊業務の変更範囲：会社の定める業務",
+      "wage": "月給 239,600円〜299,600円",
+      "working_hours": "就業時間１ 9時00分〜18時00分",
+      "holidays": "休日 土曜日，日曜日，その他 その他 会社カレンダーによる。年に数日の祝日出社あり 夏季・年末年始休暇あり ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "小松公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-09T00:11:58.774029+00:00",
+      "last_checked_at": "2026-10-09T00:11:58.774043+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "17020-06191661",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1702006192261",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1702006192261&kJKbn=1&jGSHNo=d%2BnUP9c7PbviSmMamLaCCg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "17020-06192261",
+      "title": "内装工事施工管理技術者（福岡第一）（未資格可）",
+      "company": "小松ウオール工業 株式会社",
+      "location": "〒812-0062 福岡県福岡市東区松島一丁目３２－２０ 小松ウオール工業株式会社 福岡第一支店",
+      "employment_type": "正社員",
+      "description": "間仕切をオフィスビルや学校などに施工・納入するための 現場管理業務 ・納入打ち合わせ ・製品手配 ・工事管理 など 建築士、施工管理技士の資格取得補助有り また、上記資格を合格した場合の技能手当 ・１級建築士 ３万円 ・２級建築士 １万５千円 ・１級施工管理技士 １万５千円 ・２級施工管理技士 ８千円 ＊業務の変更範囲：会社の定める業務",
+      "wage": "月給 239,600円〜299,600円",
+      "working_hours": "就業時間１ 9時00分〜18時00分",
+      "holidays": "休日 土曜日，日曜日，その他 その他 会社カレンダーによる。年に数日の祝日出社あり 夏季・年末年始休暇あり ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "小松公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-09T00:12:03.343801+00:00",
+      "last_checked_at": "2026-10-09T00:12:03.343815+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "17020-06192261",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-2302067442361",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2302067442361&kJKbn=1&jGSHNo=vxTlbO2Gh23qHDVGKy9PXQ%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "23020-67442361",
+      "title": "Ｗｅｂ広告運用マーケター／福岡市",
+      "company": "株式会社 アビリブ",
+      "location": "〒810-0801 福岡県福岡市博多区中洲４丁目６－１２ プラート中洲７Ｆ 九州支店",
+      "employment_type": "正社員以外 正社員以外の名称 契約社員 正社員登用の有無 あり 正社員登用の実績（過去３年間） ２５名",
+      "description": "ホテル・旅館・観光業界のＷｅｂ・ＳＮＳ広告運用担当の募集。 ・Ｇｏｏｇｌｅ、ｆａｃｅｂｏｏｋ、Ｙａｈｏｏ！、 Ｘ等のＷＥＢメディアの広告出稿データの分析・運用・管理 １人あたり５～１５程度のクライアントを担当いただきます。 ・広告効果の分析、運用・広告効果測定ツールの設定 （ＧＴＭやＧｏｏｇｌｅアナリティクス等）各ＷＥＢメディアは 独自のＡＩのアルゴリズムで動いていますので このアルゴリズムを解析しながら、最も成果が高くなる （予算内での注文件数が最大化になる）配信方法を考える。 ・バナー等クリエイティブの制作ディレクション ・ターゲットの選定・Ｗｅｂマーケ全般施策の立案、実行 （変更範囲：会社の定める範囲）「働き方改革関連認定企業」",
+      "wage": "月給 250,000円〜400,000円",
+      "working_hours": "就業時間１ 9時00分〜18時00分 就業時間に関する特記事項 就業時間（１）以外にフレックスタイム制も可能です。 ※求人に関する特記事項参照",
+      "holidays": "休日 土曜日，日曜日，祝日，その他 その他 ＊弊社年間カレンダーによる。 ＊リフレッシュ休暇（勤続５年以上） ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月8日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "名古屋中公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-09T00:12:07.962010+00:00",
+      "last_checked_at": "2026-10-09T00:12:07.962025+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "23020-67442361",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
     {
       "id": "hw-4012025996461",
       "source_type": "hellowork",
@@ -38,7 +203,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1308096945961",
@@ -71,7 +237,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1308096948361",
@@ -104,7 +271,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1308096954161",
@@ -137,7 +305,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1308096956361",
@@ -170,7 +339,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1312021159061",

@@ -13,7 +13,7 @@ const HELLOWORK_LIVE_TEST_JOBS=[
       "正社員"
     ],
     "hwNo": "40120-25996461",
-    "fetched": "2026/10/08",
+    "fetched": "2026/10/09",
     "received": "2026年10月8日",
     "deadline": "2026年12月31日",
     "sourceLabel": "ハローワーク公開求人・テスト表示",
@@ -23,49 +23,49 @@ const HELLOWORK_LIVE_TEST_JOBS=[
     "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4012025996461&kJKbn=1&jGSHNo=yD6BwLVqbVqXCDSabdG0yQ%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
   },
   {
-    "id": "hw-1308096956361",
+    "id": "hw-2302067442361",
     "source": "hellowork-live-test",
-    "title": "ゲームのテスト・デバッグ（リーダー・リーダー候補）福岡",
-    "company": "株式会社 コンフィデンス・インターワークス",
-    "area": "〒810-0001 福岡県福岡市中央区天神１丁目４番１号 西日本新聞会館１５階 当社 福岡支店",
+    "title": "Ｗｅｂ広告運用マーケター／福岡市",
+    "company": "株式会社 アビリブ",
+    "area": "〒810-0801 福岡県福岡市博多区中洲４丁目６－１２ プラート中洲７Ｆ 九州支店",
     "cat": "オフィスワーク",
-    "type": "正社員",
-    "pay": "月給 190,000円〜350,000円",
+    "type": "契約社員",
+    "pay": "月給 250,000円〜400,000円",
     "tags": [
       "ハローワーク公開求人",
-      "正社員"
+      "契約社員"
     ],
-    "hwNo": "13080-96956361",
-    "fetched": "2026/10/08",
+    "hwNo": "23020-67442361",
+    "fetched": "2026/10/09",
     "received": "2026年10月8日",
     "deadline": "2026年12月31日",
     "sourceLabel": "ハローワーク公開求人・テスト表示",
-    "description": "コンシューマーゲーム、ソーシャルゲーム、オンラインゲームなど のゲームのテスト・デバッグ業務 （具体的には、テスト仕様書作成やテスト実務、不具合報告・管理 スタッフ管理等を行って頂きます） ＊変更範囲：会社の定める業務",
-    "workingHours": "就業時間１ 9時00分〜18時00分",
-    "holidays": "休日 日曜日，祝日，その他 週休二日制 毎週 その他 初年度有給休暇１０日、ＧＷ、夏季、年末年始有※当社カレンダー による（土日が休日となり、祝日のある週の土曜日は原則出勤） ６ヶ月経過後の年次有給休暇日数 10日",
-    "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308096956361&kJKbn=1&jGSHNo=X%2B686DbOillXUxoOGDs%2BTA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+    "description": "ホテル・旅館・観光業界のＷｅｂ・ＳＮＳ広告運用担当の募集。 ・Ｇｏｏｇｌｅ、ｆａｃｅｂｏｏｋ、Ｙａｈｏｏ！、 Ｘ等のＷＥＢメディアの広告出稿データの分析・運用・管理 １人あたり５～１５程度のクライアントを担当いただきます。 ・広告効果の分析、運用・広告効果測定ツールの設定 （ＧＴＭやＧｏｏｇｌｅアナリティクス等）各ＷＥＢメディアは 独自のＡＩのアルゴリズムで動いていますので このアルゴリズムを解析しながら、最も成果が高くなる （予算内での注文件数が最大化になる）配信方法を考える。 ・バナー等クリエイティブの制作ディレクション ・ターゲットの選定・Ｗｅｂマーケ全般施策の立案、実行 （変更範囲：会社の定める範囲）「働き方改革関連認定企業」",
+    "workingHours": "就業時間１ 9時00分〜18時00分 就業時間に関する特記事項 就業時間（１）以外にフレックスタイム制も可能です。 ※求人に関する特記事項参照",
+    "holidays": "休日 土曜日，日曜日，祝日，その他 その他 ＊弊社年間カレンダーによる。 ＊リフレッシュ休暇（勤続５年以上） ６ヶ月経過後の年次有給休暇日数 10日",
+    "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2302067442361&kJKbn=1&jGSHNo=vxTlbO2Gh23qHDVGKy9PXQ%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
   },
   {
-    "id": "hw-1308096954161",
+    "id": "hw-1702006192261",
     "source": "hellowork-live-test",
-    "title": "ゲームプログラマー／福岡支店",
-    "company": "株式会社 コンフィデンス・インターワークス",
-    "area": "〒810-0001 福岡県福岡市中央区天神１丁目４番１号 西日本新聞会館１５階 当社 福岡支店",
+    "title": "内装工事施工管理技術者（福岡第一）（未資格可）",
+    "company": "小松ウオール工業 株式会社",
+    "area": "〒812-0062 福岡県福岡市東区松島一丁目３２－２０ 小松ウオール工業株式会社 福岡第一支店",
     "cat": "オフィスワーク",
     "type": "正社員",
-    "pay": "月給 210,000円〜500,000円",
+    "pay": "月給 239,600円〜299,600円",
     "tags": [
       "ハローワーク公開求人",
       "正社員"
     ],
-    "hwNo": "13080-96954161",
-    "fetched": "2026/10/08",
+    "hwNo": "17020-06192261",
+    "fetched": "2026/10/09",
     "received": "2026年10月8日",
     "deadline": "2026年12月31日",
     "sourceLabel": "ハローワーク公開求人・テスト表示",
-    "description": "コンシューマーゲーム、ソーシャルゲームの開発（新規または既存 タイトル）業務 （Ｃ＋＋、Ｃ＃、Ｏｂｌｅｃｔｉｖｅ－Ｃ、Ｕｎｉｔｙ、 ｃｏｃｏｓ２ｄ－ｘ、Ｕｎｒｅａｌ Ｅｎｇｉｎｅ等） ＊変更範囲：会社の定める業務",
+    "description": "間仕切をオフィスビルや学校などに施工・納入するための 現場管理業務 ・納入打ち合わせ ・製品手配 ・工事管理 など 建築士、施工管理技士の資格取得補助有り また、上記資格を合格した場合の技能手当 ・１級建築士 ３万円 ・２級建築士 １万５千円 ・１級施工管理技士 １万５千円 ・２級施工管理技士 ８千円 ＊業務の変更範囲：会社の定める業務",
     "workingHours": "就業時間１ 9時00分〜18時00分",
-    "holidays": "休日 日曜日，祝日，その他 週休二日制 毎週 その他 初年度有給休暇１０日、ＧＷ、夏季、年末年始有※当社カレンダー による（土日が休日となり、祝日のある週の土曜日は原則出勤） ６ヶ月経過後の年次有給休暇日数 10日",
-    "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308096954161&kJKbn=1&jGSHNo=X%2B686DbOillXUxoOGDs%2BTA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+    "holidays": "休日 土曜日，日曜日，その他 その他 会社カレンダーによる。年に数日の祝日出社あり 夏季・年末年始休暇あり ６ヶ月経過後の年次有給休暇日数 10日",
+    "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1702006192261&kJKbn=1&jGSHNo=d%2BnUP9c7PbviSmMamLaCCg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
   }
 ];
