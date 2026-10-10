@@ -1,12 +1,177 @@
 {
   "test_only": true,
   "summary": {
-    "active": 23,
+    "active": 28,
     "closed": 0,
     "review_required": 0,
-    "total": 23
+    "total": 28
   },
   "results": [
+    {
+      "id": "hw-1301010182762",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1301010182762&kJKbn=1&jGSHNo=MwsYEhzHv3904Cc3Eafugw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13010-10182762",
+      "title": "積込スタッフ／福岡市早良区（福岡原店）",
+      "company": "株式会社建デポ",
+      "location": "〒814-0161 福岡県福岡市早良区飯倉３－４０－２１ 建デポ 福岡原店",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） あり※正社員以外の職種へも昇格実績が多々あり",
+      "description": "～ホームセンターのような雰囲気のお店～ ≪職人向け建材店の簡単な積込スタッフ≫ ・お客様が購入した商品の積込や品出し ・レジ販売業務 ・品出し、清掃・・等 ＊制服無償貸与 建築業に従事するお客様が多いため、重い商品で１つ２０キロ ３０キロになります。 商品案内や知識が必要な問合せは社員が行いますので、 特別な知識は必要ありません！ ※変更範囲：なし",
+      "wage": "時給 1,300円〜1,400円",
+      "working_hours": "交替制（シフト制） 就業時間１ 17時00分〜20時00分 就業時間に関する特記事項 ２時間以上（休憩時間は法定通り） 週２日以上 ＊時間相談可",
+      "holidays": "休日 その他 週休二日制 毎週 その他 契約日数により休日数は異なる 曜日は応相談",
+      "received_date": "2026年10月9日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "飯田橋公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-10T00:10:48.040706+00:00",
+      "last_checked_at": "2026-10-10T00:10:48.040724+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13010-10182762",
+        "search_location": "福岡県福岡市早良区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1308097612561",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308097612561&kJKbn=1&jGSHNo=25LuTPpN2dpq%2Fu8qBe5Cbw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13080-97612561",
+      "title": "調理および接客／キャナルシティ博多店",
+      "company": "日本マクドナルド 株式会社",
+      "location": "〒812-0018 福岡県福岡市博多区住吉１－２－２０ キャナルシティ博多センターウォークＢ１Ｆ",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） ２０８名登用",
+      "description": "マクドナルドでは多種多様な方（学生、主婦（夫）、シニア、外国 人等）が多数活躍しています。写真付きのマニュアルとカリキュラ ムに沿ったサポートで安心してスタートできます。 ・キッチンでの調理 ・レジカウンターでの接客・商品注文受付 ・その他、配膳、清掃など店舗運営に関わる業務 ＊全国のマクドナルドには約７千人のシニアスタッフ （６０歳～８０歳代の方）が在籍しています。 ＊外国人の方も多数活躍中（日本語のあいさつができる方、 カタカナが読める方） 変更範囲：フロア担当業務",
+      "wage": "時給 1,114円〜1,114円",
+      "working_hours": "就業時間１ 7時00分〜14時00分 就業時間２ 9時00分〜17時00分 就業時間３ 16時00分〜0時00分 就業時間に関する特記事項 （１）～（３）はシフト例 週１日２時間以上でご希望に応じた勤務が可能です",
+      "holidays": "休日 その他 週休二日制 毎週 ６ヶ月経過後の年次有給休暇日数 1日",
+      "received_date": "2026年10月9日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "新宿公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-10T00:10:52.823268+00:00",
+      "last_checked_at": "2026-10-10T00:10:52.823284+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13080-97612561",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1308097614761",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308097614761&kJKbn=1&jGSHNo=25LuTPpN2dpq%2Fu8qBe5Cbw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13080-97614761",
+      "title": "調理および接客／イオンモール香椎浜店",
+      "company": "日本マクドナルド 株式会社",
+      "location": "〒813-0016 福岡県福岡市東区香椎浜３－１２－１",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） ２０８名登用",
+      "description": "マクドナルドでは多種多様な方（学生、主婦（夫）、シニア、外国 人等）が多数活躍しています。写真付きのマニュアルとカリキュラ ムに沿ったサポートで安心してスタートできます。 ・キッチンでの調理 ・レジカウンターでの接客・商品注文受付 ・その他、配膳、清掃など店舗運営に関わる業務 ＊全国のマクドナルドには約７千人のシニアスタッフ （６０歳～８０歳代の方）が在籍しています。 ＊外国人の方も多数活躍中（日本語のあいさつができる方、 カタカナが読める方） 変更範囲：フロア担当業務",
+      "wage": "時給 1,115円〜1,115円",
+      "working_hours": "就業時間１ 8時00分〜14時00分 就業時間２ 10時00分〜17時00分 就業時間３ 17時00分〜23時00分 就業時間に関する特記事項 （１）～（３）はシフト例 週１日２時間以上でご希望に応じた勤務が可能です",
+      "holidays": "休日 その他 週休二日制 毎週 ６ヶ月経過後の年次有給休暇日数 1日",
+      "received_date": "2026年10月9日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "新宿公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-10T00:10:57.618118+00:00",
+      "last_checked_at": "2026-10-10T00:10:57.618135+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13080-97614761",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1308097616961",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308097616961&kJKbn=1&jGSHNo=25LuTPpN2dpq%2Fu8qBe5Cbw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13080-97616961",
+      "title": "調理および接客／博多筑紫口店",
+      "company": "日本マクドナルド 株式会社",
+      "location": "〒812-0013 福岡県福岡市博多区博多駅東２－１－１ Ｂ１Ｆ",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） ２０８名登用",
+      "description": "マクドナルドでは多種多様な方（学生、主婦（夫）、シニア、外国 人等）が多数活躍しています。写真付きのマニュアルとカリキュラ ムに沿ったサポートで安心してスタートできます。 ・キッチンでの調理 ・レジカウンターでの接客・商品注文受付 ・その他、配膳、清掃など店舗運営に関わる業務 ＊全国のマクドナルドには約７千人のシニアスタッフ （６０歳～８０歳代）が在籍しています。 ＊外国人の方も多数活躍中（日本語のあいさつができる方、 カタカナが読める方） 変更範囲：フロア担当業務",
+      "wage": "時給 1,114円〜1,114円",
+      "working_hours": "就業時間１ 5時00分〜8時00分 就業時間２ 11時00分〜14時00分 就業時間３ 21時00分〜0時00分 就業時間に関する特記事項 （１）～（３）はシフト例 週１日２時間以上でご希望に応じた勤務が可能です",
+      "holidays": "休日 その他 週休二日制 毎週 ６ヶ月経過後の年次有給休暇日数 1日",
+      "received_date": "2026年10月9日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "新宿公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-10T00:11:02.292487+00:00",
+      "last_checked_at": "2026-10-10T00:11:02.292501+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13080-97616961",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-2706030141461",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2706030141461&kJKbn=1&jGSHNo=b9BaAWp3JllwDp%2Fk6AdvUA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "27060-30141461",
+      "title": "常勤介護スタッフ（正社員／福岡市早良区）「グランダ西新」",
+      "company": "株式会社 ベネッセスタイルケア 西日本エリア事業本部",
+      "location": "〒814-0002 福岡県福岡市早良区西新２－１２－５ 「グランダ西新」",
+      "employment_type": "正社員",
+      "description": "西新駅から徒歩４分です♪ ★充実の福利厚生・資格取得支援制度・長く働くならベネッセ★ ◎有料老人ホームでのご入居者様の介護・生活全般のお手伝い◎ ・お食事の準備やお手伝い ・ご入居者様が楽しめるアクティビティのサポート ・ご入居者様の１日のご様子の記録と、他スタッフへの申送り ・起床・就寝、排泄のお手伝いなど ■経験が浅い方も中途入社の方に特化した入社時研修があるので、 介護の基本が身につきます。未経験スタートのスタッフも活躍中！ ホーム現地にてお仕事説明会開催中！（予約制） 変更範囲：社内公募制度あり",
+      "wage": "月給 238,500円〜275,000円",
+      "working_hours": "変形労働時間制 変形労働時間制の単位 １ヶ月単位 就業時間１ 7時00分〜16時00分 就業時間２ 8時00分〜17時00分 就業時間３ 10時30分〜19時30分 就業時間に関する特記事項 （４）１７：００～１０：００／夜勤実働１６時間 各シフト時間は多少前後します。",
+      "holidays": "休日 その他 週休二日制 その他 その他 ４週８休制（勤務表による）■有給取得促進手当あり ■有給取得で長期休暇（５連休以上の取得）も可能 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月9日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "淀川公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-10T00:11:07.044137+00:00",
+      "last_checked_at": "2026-10-10T00:11:07.044153+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "27060-30141461",
+        "search_location": "福岡県福岡市早良区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
     {
       "id": "hw-1308097597661",
       "source_type": "hellowork",
@@ -38,7 +203,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1311019413161",
@@ -71,7 +237,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1702006191661",
@@ -104,7 +271,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1702006192261",
@@ -137,7 +305,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2302067442361",
@@ -170,7 +339,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-4012025996461",
