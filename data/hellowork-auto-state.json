@@ -35,7 +35,7 @@
         "job_number": "13010-10182762",
         "search_location": "福岡県福岡市早良区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
@@ -68,7 +68,7 @@
         "job_number": "13080-97612561",
         "search_location": "福岡県福岡市博多区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
@@ -101,7 +101,7 @@
         "job_number": "13080-97614761",
         "search_location": "福岡県福岡市東区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
@@ -134,7 +134,7 @@
         "job_number": "13080-97616961",
         "search_location": "福岡県福岡市博多区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
@@ -167,7 +167,7 @@
         "job_number": "27060-30141461",
         "search_location": "福岡県福岡市早良区",
         "public_scope_search": "1",
-        "reused_previous_detail": false
+        "reused_previous_detail": true
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active"
