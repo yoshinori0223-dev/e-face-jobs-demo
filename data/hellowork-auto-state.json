@@ -1,12 +1,45 @@
 {
   "test_only": true,
   "summary": {
-    "active": 28,
+    "active": 29,
     "closed": 0,
     "review_required": 0,
-    "total": 28
+    "total": 29
   },
   "results": [
+    {
+      "id": "hw-1304040237362",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1304040237362&kJKbn=1&jGSHNo=zXwNoFb26ChbjPtQ97%2FTow%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13040-40237362",
+      "title": "調理補助／サービス付き高齢者住宅 想美 内厨房",
+      "company": "株式会社シダックスフードサービス",
+      "location": "〒812-0894 福岡県福岡市博多区諸岡１－２４－２５ サービス付き高齢者住宅 想美 内厨房",
+      "employment_type": "正社員以外 正社員以外の名称 一般契約社員 正社員登用の有無 あり 正社員登用の実績（過去３年間） 多数あり",
+      "description": "・盛付、下処理、洗浄等 食数 朝：４０ 昼：４０ 間 ２０ 夕：４０ 従事すべき業務の変更範囲：なし プロジェクトコード：３７０７２８",
+      "wage": "193,390円〜193,390円",
+      "working_hours": "交替制（シフト制） 就業時間１ 6時00分〜15時00分 就業時間２ 9時30分〜18時30分",
+      "holidays": "休日 その他 週休二日制 毎週 その他 シフト制 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月13日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "品川公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-13T00:12:33.560687+00:00",
+      "last_checked_at": "2026-10-13T00:12:33.560708+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13040-40237362",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
     {
       "id": "hw-1301010182762",
       "source_type": "hellowork",
@@ -170,7 +203,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1308097597661",
