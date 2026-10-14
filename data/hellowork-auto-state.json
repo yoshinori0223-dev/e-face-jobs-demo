@@ -1,12 +1,177 @@
 {
   "test_only": true,
   "summary": {
-    "active": 29,
+    "active": 34,
     "closed": 0,
     "review_required": 0,
-    "total": 29
+    "total": 34
   },
   "results": [
+    {
+      "id": "hw-1307069595661",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1307069595661&kJKbn=1&jGSHNo=n1oF0d95qvWBxwhAnXOXGg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13070-69595661",
+      "title": "営業事務／福岡支社",
+      "company": "フロンティア株式会社",
+      "location": "〒814-0004 福岡県福岡市中央区渡辺通５丁目２４番３２号ＦＰＧ ｌｉｎｋｓ ＴＥＮＪＩＮ ＭＩＮＡＭＩ１２階",
+      "employment_type": "正社員",
+      "description": "・資料作成（データ入力・管理） ・メール対応 ・受電対応 ・来客対応 ・備品管理・発注 ・請求書対応（申請・経理補助） ・社内調整・サポート（飲み会等の会場手配、インフルエンザ予防 接種のスケジュール調整など） ・新人育成サポート（新入社員への簡易的な業務レクチャー） などを想定しています。 東京本社や大阪支社の同職種の方と連携しながらお仕事を進めてい ただきます。 ＊変更範囲：変更なし",
+      "wage": "月給 210,000円〜300,000円",
+      "working_hours": "就業時間１ 9時00分〜18時00分",
+      "holidays": "休日 土曜日，日曜日，祝日 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月13日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "渋谷公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-14T00:17:47.773723+00:00",
+      "last_checked_at": "2026-10-14T00:17:47.773742+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13070-69595661",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-2701046878861",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2701046878861&kJKbn=1&jGSHNo=UOcG%2BPfb%2BbTprQ6ipunaEg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "27010-46878861",
+      "title": "（福岡）プログラマー",
+      "company": "株式会社トップヒルズ 西日本支社",
+      "location": "〒810-0001 福岡県福岡市中央区天神４－１－１７ 博多天神ビル８階 株式会社トップヒルズ 福岡事業所",
+      "employment_type": "正社員",
+      "description": "Ｗｅｂシステムや業務系アプリケーションのプログラミング・詳細 設計・テスト業務をご担当いただきます。 【具体的には】 ・仕様書に基づいたシステムの実装（プログラミング） ・単体テスト・結合テストの計画および実施・デバッグ ・既存システムの改修・機能追加および保守対応 ・詳細設計書や各種仕様書の作成・更新 【変更範囲：変更なし】",
+      "wage": "月給 219,200円〜651,100円",
+      "working_hours": "就業時間１ 9時00分〜18時00分",
+      "holidays": "休日 土曜日，日曜日，祝日，その他 その他 ＊夏季休暇３日（７月～９月の間で任意取得 ＊４月１日在籍者） ＊年末年始（１２月２９日～１月４日） ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月13日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "大阪東公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-14T00:17:53.022659+00:00",
+      "last_checked_at": "2026-10-14T00:17:53.022675+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "27010-46878861",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-2718012908561",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2718012908561&kJKbn=1&jGSHNo=IGQjdgg%2ByoyLz82iuq81pQ%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "27180-12908561",
+      "title": "訪問入浴・介護職【オペレーター】（ケア福岡）運転有無資格",
+      "company": "パナソニックエイジフリー 株式会社 ライフサポート事業部",
+      "location": "〒812-0894 福岡県福岡市博多区諸岡２丁目６－２６ パナソニックエイジフリー ケアセンター福岡・訪問入浴",
+      "employment_type": "正社員",
+      "description": "無資格・未経験からのスタート大歓迎！在籍職員の９割以上が未経 験からのスタートです！専任スタッフが個人のペースに寄り添った 研修で独り立ちまで安心サポートいたします。 専用の入浴車でご利用者様のご自宅を訪問します。お客様がご自宅 で気持ちよく入浴することができるよう、浴槽などの入浴機材の準 備・設営・入浴介助をして頂きます。 【件数】１日平均６件程度、１件当たり４０分～６０分 【体制】介護職員２名・看護職員１名の計３名 オペレーターは主に入浴車の運転・浴槽の準備・片付けと入浴の介 助を行います。体験乗車も行っておりますので、お気軽にお問い合 わせください。 ＊＊＊ 急 募 ＊＊＊ 「変更範囲：変更なし」",
+      "wage": "月給 236,000円〜236,000円",
+      "working_hours": "変形労働時間制 変形労働時間制の単位 １ヶ月単位 就業時間１ 8時30分〜17時30分",
+      "holidays": "休日 日曜日，その他 週休二日制 その他 その他 ローテーションによる交替勤務 当社カレンダーによる（シフト休日：８～１０日／月） ６ヶ月経過後の年次有給休暇日数 15日",
+      "received_date": "2026年10月13日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "門真公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-14T00:17:57.727187+00:00",
+      "last_checked_at": "2026-10-14T00:17:57.727204+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "27180-12908561",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-3501009472661",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=3501009472661&kJKbn=1&jGSHNo=LHHiJwvFvpDNXF1OK%2BOLgA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "35010-09472661",
+      "title": "訪問介護士【福岡：ヘルパーステーション】",
+      "company": "社会福祉法人 青藍会",
+      "location": "〒810-0041 青藍会在宅医療支援センター天神 ヘルパーステーション 福岡県福岡市中央区大名１丁目８ 大名柴田ビル",
+      "employment_type": "正社員",
+      "description": "２０２６年１０月、福岡市大名に新規オープンした「青藍会在宅医 療支援センター天神 ヘルパーステーション」での訪問介護業務で す。 【主な業務】 ・食事、入浴、排泄等の身体介護 ・掃除、洗濯、調理等の生活援助 ・通院、外出時の移動介助 ・服薬確認等の日常生活支援 ・サービス提供記録の作成 ・関係職種との情報共有 等 業務内容の変更範囲：法人が定める業務 ※応募の際はハローワークの紹介状が必要となります。",
+      "wage": "月給 228,600円〜360,800円",
+      "working_hours": "変形労働時間制 変形労働時間制の単位 １ヶ月単位 就業時間１ 8時30分〜17時30分",
+      "holidays": "休日 その他 週休二日制 その他 その他 月９日休み（１・５・８・１１月は１０日、２月は８日） ローテーションによる ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月13日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "山口公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-14T00:18:02.544621+00:00",
+      "last_checked_at": "2026-10-14T00:18:02.544637+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "35010-09472661",
+        "search_location": "福岡県福岡市中央区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-4001062023361",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4001062023361&kJKbn=1&jGSHNo=kMxSVnenAL%2FswuiDKFWB%2Bg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "40010-62023361",
+      "title": "インフォメーション受付／橋本",
+      "company": "株式会社 アソウ・ヒューマニーセンター",
+      "location": "〒819-0031 福岡県福岡市西区橋本２丁目２７－２ 木の葉モール橋本 １階 インフォメーションカウンター",
+      "employment_type": "正社員以外 正社員以外の名称 契約社員（正規社員登用あり） 正社員登用の有無 あり 正社員登用の実績（過去３年間） １０名",
+      "description": "■木の葉モール橋本インフォメーション受付 ・お客様へのご案内対応 ・電話応対 ・館内アナウンス対応 ・施設アプリの登録のご案内 ・駐車場無料サービスの対応 ・割引クーポンのお渡し ・その他サポート対応 など 充実したマニュアルに基づいた研修制度があるため未経験の方も 安心して就業いただけます。 変更範囲：変更なし",
+      "wage": "199,950円〜221,611円",
+      "working_hours": "変形労働時間制 変形労働時間制の単位 １ヶ月単位 又は 9時30分〜21時15分の時間の間の7時間程度 就業時間に関する特記事項 実働７．７５時間のシフト制 （シフト例） ９時３０分～１８時４５分（休憩９０分） １２時００分～２１時１５分（休憩９０分）など",
+      "holidays": "休日 その他 週休二日制 その他 その他 シフト制（月８日程度のお休み／希望休申請できます） ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月13日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "福岡中央公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-14T00:18:07.365204+00:00",
+      "last_checked_at": "2026-10-14T00:18:07.365220+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "40010-62023361",
+        "search_location": "福岡県福岡市西区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
     {
       "id": "hw-1304040237362",
       "source_type": "hellowork",
@@ -38,7 +203,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1301010182762",
@@ -71,7 +237,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1308097612561",
@@ -104,7 +271,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1308097614761",
@@ -137,7 +305,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1308097616961",
@@ -170,7 +339,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2706030141461",
