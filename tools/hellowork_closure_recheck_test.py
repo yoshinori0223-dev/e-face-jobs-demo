@@ -71,6 +71,7 @@ def check_url(url:str, session:requests.Session)->dict:
             "job_number":item.get("job_number"),
             "company":item.get("company"),
             "title":item.get("title"),
+            "detail":item,
         }
 
     if item.get("status")=="excluded_non_public":

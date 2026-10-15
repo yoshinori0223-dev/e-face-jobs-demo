@@ -20,7 +20,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,66 +39,10 @@ jobs:
           python tools/hellowork_closure_regression_test.py
           python tools/hellowork_state_merge_regression_test.py
           python tools/hellowork_pipeline_regression_test.py
+          python tools/hellowork_daily_regression_test.py
 
-      - name: Prepare previous snapshot
-        run: |
-          mkdir -p data
-          if [ ! -f data/hellowork-auto-state.json ]; then
-            printf '{"results":[]}' > data/hellowork-auto-state.json
-          fi
-
-      - name: Discover current public jobs
-        run: |
-          python tools/hellowork_discovery_test.py             --max 5             --delay 4             --previous data/hellowork-auto-state.json             --output data/hellowork-auto-current.json
-
-      - name: Diff
-        run: |
-          python tools/hellowork_diff_test.py             --current data/hellowork-auto-current.json             --previous data/hellowork-auto-state.json             --output data/hellowork-auto-diff.json
-
-      - name: Closure recheck
-        run: |
-          python tools/hellowork_closure_recheck_test.py             --diff data/hellowork-auto-diff.json             --max 0             --delay 4             --output data/hellowork-auto-closure.json
-
-      - name: Lifecycle merge
-        run: |
-          python tools/hellowork_state_merge_test.py             --current data/hellowork-auto-current.json             --previous data/hellowork-auto-state.json             --closure data/hellowork-auto-closure.json             --output data/hellowork-auto-merged.json
-
-      - name: Build public display
-        run: |
-          python tools/hellowork_publish_candidate.py             --merged data/hellowork-auto-merged.json             --output hellowork-live-test.js             --max 3
-
-      - name: Guardrails
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          state=json.loads(Path("data/hellowork-auto-merged.json").read_text(encoding="utf-8"))
-          summary=state.get("summary",{})
-
-          closure=json.loads(Path("data/hellowork-auto-closure.json").read_text(encoding="utf-8"))
-          assert closure["unchecked_count"] == 0, closure
-          problems=[{"job_number":r.get("job_number"),"reason":r.get("lifecycle_reason")}
-                    for r in state.get("results",[]) if r.get("lifecycle_status")=="review_required"]
-          if problems:
-              print("::error::Hello Work verification unresolved: " + json.dumps(problems,ensure_ascii=False))
-
-          # Fail closed: ambiguous closure must never be auto-published.
-          assert summary.get("review_required",0) == 0, summary
-          assert summary.get("closed",0) >= 0, summary
-          assert summary.get("active",0) >= 0, summary
-
-          js=Path("hellowork-live-test.js").read_text(encoding="utf-8")
-          count=js.count('"source": "hellowork-live-test"')
-          assert 0 <= count <= 3, count
-          if count:
-              assert "ハローワーク公開求人" in js
-
-          print("guardrails OK", summary, "published_cards", count)
-          PY
-
-      - name: Save lifecycle state
-        run: cp data/hellowork-auto-merged.json data/hellowork-auto-state.json
+      - name: Verify bounded queue and build public display
+        run: python tools/hellowork_daily.py
 
       - name: Commit only when data changed
         run: |
@@ -118,8 +62,6 @@ jobs:
         with:
           name: hellowork-daily-audit
           path: |
-            data/hellowork-auto-current.json
-            data/hellowork-auto-diff.json
-            data/hellowork-auto-closure.json
-            data/hellowork-auto-merged.json
+            data/hellowork-daily-audit.json
+            data/hellowork-auto-state.json
           if-no-files-found: warn
