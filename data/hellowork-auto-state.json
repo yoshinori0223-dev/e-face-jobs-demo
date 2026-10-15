@@ -1,12 +1,177 @@
 {
   "test_only": true,
   "summary": {
-    "active": 34,
+    "active": 39,
     "closed": 0,
     "review_required": 0,
-    "total": 34
+    "total": 39
   },
   "results": [
+    {
+      "id": "hw-4012026353461",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4012026353461&kJKbn=1&jGSHNo=JWkJaiqA%2BLn%2Bw6SwQugP9w%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "40120-26353461",
+      "title": "給食業務全般（パート）",
+      "company": "医療法人 翌檜会 介護老人保健施設 ローズガーデンＭ．Ｋ．",
+      "location": "〒813-0024 福岡県福岡市東区名子１丁目１番５号",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） なし",
+      "description": "給食業務全般 調理（ほほ出来上がったお総菜の温め・フルーツの カッティング他を含む）・盛り付け・配膳・洗浄等＊１回約１００ 食×３食分 常に複数名体制で初心者でも安心！ クックチル（温め）中心 包丁作業少なめ ★６０歳以上の応募可（条件同一）「アクティブシニア求人」 「生涯現役支援求人」 【将来的な業務内容の変更の範囲】法人の定める業務全般",
+      "wage": "時給 1,114円〜1,200円",
+      "working_hours": "交替制（シフト制） 就業時間１ 6時00分〜15時00分 就業時間２ 15時00分〜19時00分 就業時間３ 6時00分〜12時00分 又は 6時00分〜19時00分の時間の間の4時間以上 就業時間に関する特記事項 ＊シフト制 ＊（２）は休憩なし ※休憩は法定どおり付与 ＊就業時間は相談可能です。",
+      "holidays": "休日 その他 週休二日制 毎週 その他 勤務日の相談可",
+      "received_date": "2026年10月15日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "福岡東公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-15T00:42:18.334812+00:00",
+      "last_checked_at": "2026-10-15T00:42:18.334831+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "40120-26353461",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-4012026356961",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4012026356961&kJKbn=1&jGSHNo=2yi8TuH39t13bHCxf8YDVw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "40120-26356961",
+      "title": "高齢者給食の献立作成、食材発注・在庫管理の補助",
+      "company": "株式会社 みかげ",
+      "location": "〒811-0202 福岡県福岡市東区和白５丁目９－３",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） １名",
+      "description": "高齢者給食のメニュー献立作成の補助 材料発注、在庫管理の補助 厨房での調理補助、盛付等 それに付随する業務 ＊白衣等は貸与いたします。 【将来的な業務内容の変更の可能性】：変更なし",
+      "wage": "時給 1,200円〜1,400円",
+      "working_hours": "又は 8時30分〜17時30分の時間の間の6時間程度 就業時間に関する特記事項 勤務時間、時間帯については応相談 フルタイムも可能です。 ＊休憩は法定通り",
+      "holidays": "休日 その他 週休二日制 毎週 その他 シフト制",
+      "received_date": "2026年10月15日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "福岡東公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-15T00:42:22.917982+00:00",
+      "last_checked_at": "2026-10-15T00:42:22.917998+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "40120-26356961",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-4101014711761",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4101014711761&kJKbn=1&jGSHNo=JufaVda10B5hfdzwfgchSQ%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "41010-14711761",
+      "title": "ショッピングモール内サラダ専門店の店長候補（正社員）",
+      "company": "株式会社 九州ダイエットクック",
+      "location": "〒813-0016 福岡県福岡市東区香椎浜３丁目１２－１ （イオンモール香椎浜店内）",
+      "employment_type": "正社員",
+      "description": "○当社運営の「サラダ日和」の店舗（イオンモール香椎浜店内）に おいて店舗運営全般をお願いします。 【主な業務】 ・接客、調理、清掃、人事労務、発注などの管理業務 ・アルバイトスタッフの採用、育成 ・売上向上のための販促企画 ＊外出時、社用車（ＡＴ車）を運転の場合あり 【変更範囲：変更なし】 ＜応募には、ハローワークの紹介状が必要です＞ 【オンライン自主応募の方は紹介状不要】",
+      "wage": "月給 300,000円〜400,000円",
+      "working_hours": "変形労働時間制 変形労働時間制の単位 １年単位 就業時間１ 7時00分〜16時00分 就業時間２ 8時00分〜17時00分 又は 7時00分〜20時00分の時間の間の8時間 就業時間に関する特記事項 （１）～（３）はシフト例です。",
+      "holidays": "休日 その他 週休二日制 毎週 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月15日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "佐賀公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-15T00:42:27.636224+00:00",
+      "last_checked_at": "2026-10-15T00:42:27.636240+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "41010-14711761",
+        "search_location": "福岡県福岡市東区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1301012146662",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1301012146662&kJKbn=1&jGSHNo=v5uulBQ3Pw9LNP5FzV266Q%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13010-12146662",
+      "title": "ルートセールス／九州事業所・福岡市",
+      "company": "ウェアラ株式会社",
+      "location": "〒812-0863 福岡県福岡市博多区金の隈２丁目２５－８ 当社 九州事業所",
+      "employment_type": "正社員",
+      "description": "〈三井物産グループ〉 既存のお客様を定期的に訪問し、ユニフォームの納品・回収を行っ て頂きます。 また、日々のコミュニケーションを通して、お客様の悩みやニーズ を掴み、提案を行って頂くことお仕事です。 （使用車輌はハイルーフ、トラック（１．５ｔ）等、ＡＴ車のみ） 変更範囲：会社の定める業務（会社の業務全般）",
+      "wage": "月給 242,560円〜273,400円",
+      "working_hours": "就業時間１ 9時00分〜18時00分 就業時間に関する特記事項 顧客先都合により早出・残業あり",
+      "holidays": "休日 土曜日，日曜日，祝日，その他 その他 土・祝日は出勤となる場合有、振替休日対応 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月14日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "飯田橋公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-15T00:42:32.276028+00:00",
+      "last_checked_at": "2026-10-15T00:42:32.276045+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13010-12146662",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
+    {
+      "id": "hw-1301012449862",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1301012449862&kJKbn=1&jGSHNo=MwsYEhzHv3904Cc3Eafugw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "job_number": "13010-12449862",
+      "title": "積込スタッフ／博多区（博多板付店）",
+      "company": "株式会社建デポ",
+      "location": "〒812-0888 福岡県福岡市博多区大字板付６－１３－２６ 当社 博多板付店",
+      "employment_type": "パート労働者 正社員登用の有無 あり 正社員登用の実績（過去３年間） あり※正社員以外の職種へも昇格実績が多々あり",
+      "description": "～ホームセンターのような雰囲気のお店～ ≪職人向け建材店の簡単な積込スタッフ≫ ・お客様が購入した商品の積込や品出し ・レジ販売業務 ・品出し、清掃・・等 ＊制服無償貸与 建築業に従事するお客様が多いため、重い商品で１つ２０キロ３０ キロになります。 商品案内や知識が必要な問合せは社員が行いますので、特別な知識 は必要ありません！ ※変更範囲：なし",
+      "wage": "時給 1,300円〜1,400円",
+      "working_hours": "就業時間１ 6時30分〜9時30分 就業時間に関する特記事項 ２時間以上（休憩時間は法定通り） 週２日以上 ＊時間相談可",
+      "holidays": "休日 その他 週休二日制 毎週 その他 契約日数により休日数は異なる 曜日は応相談",
+      "received_date": "2026年10月14日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "飯田橋公共職業安定所",
+      "job_category": "パート",
+      "fetched_at": "2026-10-15T00:42:36.855405+00:00",
+      "last_checked_at": "2026-10-15T00:42:36.855422+00:00",
+      "status": "test_candidate",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "_discovery": {
+        "job_number": "13010-12449862",
+        "search_location": "福岡県福岡市博多区",
+        "public_scope_search": "1",
+        "reused_previous_detail": false
+      },
+      "last_seen_in_search": true,
+      "lifecycle_status": "active"
+    },
     {
       "id": "hw-1307069595661",
       "source_type": "hellowork",
@@ -38,7 +203,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2701046878861",
@@ -71,7 +237,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-2718012908561",
@@ -104,7 +271,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-3501009472661",
@@ -137,7 +305,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-4001062023361",
@@ -170,7 +339,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "lifecycle_reason": "closure_recheck_still_active"
     },
     {
       "id": "hw-1304040237362",
