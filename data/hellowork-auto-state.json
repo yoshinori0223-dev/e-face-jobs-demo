@@ -1,11 +1,20 @@
 {
-  "test_only": true,
+  "schema_version": 2,
+  "generated_at": "2026-10-15T00:55:54.822469+00:00",
   "summary": {
-    "active": 39,
-    "closed": 0,
+    "checked": 20,
+    "pending": 22,
     "review_required": 0,
-    "total": 39
+    "closed": 0,
+    "total": 42,
+    "published": 3,
+    "discovered": 5
   },
+  "published_job_numbers": [
+    "27060-30141461",
+    "13080-97616961",
+    "13080-97614761"
+  ],
   "results": [
     {
       "id": "hw-4012026353461",
@@ -25,8 +34,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "福岡東公共職業安定所",
       "job_category": "パート",
-      "fetched_at": "2026-10-15T00:42:18.334812+00:00",
-      "last_checked_at": "2026-10-15T00:42:18.334831+00:00",
+      "fetched_at": "2026-10-15T00:54:37.400748+00:00",
+      "last_checked_at": "2026-10-15T00:54:37.400756+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -38,7 +47,10 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "last_attempt_at": "2026-10-15T00:54:37.400774+00:00",
+      "lifecycle_reason": "public_detail_still_available",
+      "last_verified_at": "2026-10-15T00:54:37.400774+00:00"
     },
     {
       "id": "hw-4012026356961",
@@ -58,8 +70,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "福岡東公共職業安定所",
       "job_category": "パート",
-      "fetched_at": "2026-10-15T00:42:22.917982+00:00",
-      "last_checked_at": "2026-10-15T00:42:22.917998+00:00",
+      "fetched_at": "2026-10-15T00:54:42.168985+00:00",
+      "last_checked_at": "2026-10-15T00:54:42.168995+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -71,7 +83,10 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "last_attempt_at": "2026-10-15T00:54:42.169014+00:00",
+      "lifecycle_reason": "public_detail_still_available",
+      "last_verified_at": "2026-10-15T00:54:42.169014+00:00"
     },
     {
       "id": "hw-4101014711761",
@@ -104,7 +119,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-1301012146662",
@@ -124,8 +140,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "飯田橋公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-15T00:42:32.276028+00:00",
-      "last_checked_at": "2026-10-15T00:42:32.276045+00:00",
+      "fetched_at": "2026-10-15T00:55:06.329960+00:00",
+      "last_checked_at": "2026-10-15T00:55:06.329969+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -137,7 +153,10 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "last_attempt_at": "2026-10-15T00:55:06.329988+00:00",
+      "lifecycle_reason": "public_detail_still_available",
+      "last_verified_at": "2026-10-15T00:55:06.329988+00:00"
     },
     {
       "id": "hw-1301012449862",
@@ -157,8 +176,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "飯田橋公共職業安定所",
       "job_category": "パート",
-      "fetched_at": "2026-10-15T00:42:36.855405+00:00",
-      "last_checked_at": "2026-10-15T00:42:36.855422+00:00",
+      "fetched_at": "2026-10-15T00:55:11.115112+00:00",
+      "last_checked_at": "2026-10-15T00:55:11.115121+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -170,7 +189,10 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active"
+      "lifecycle_status": "active",
+      "last_attempt_at": "2026-10-15T00:55:11.115140+00:00",
+      "lifecycle_reason": "public_detail_still_available",
+      "last_verified_at": "2026-10-15T00:55:11.115140+00:00"
     },
     {
       "id": "hw-1307069595661",
@@ -190,8 +212,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "渋谷公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-14T00:17:47.773723+00:00",
-      "last_checked_at": "2026-10-14T00:17:47.773742+00:00",
+      "fetched_at": "2026-10-15T00:55:20.960614+00:00",
+      "last_checked_at": "2026-10-15T00:55:20.960625+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -204,7 +226,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:20.960645+00:00",
+      "last_verified_at": "2026-10-15T00:55:20.960645+00:00"
     },
     {
       "id": "hw-2701046878861",
@@ -237,8 +261,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2718012908561",
@@ -271,8 +295,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-3501009472661",
@@ -305,8 +329,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-4001062023361",
@@ -339,8 +363,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-1304040237362",
@@ -360,8 +384,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "品川公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-13T00:12:33.560687+00:00",
-      "last_checked_at": "2026-10-13T00:12:33.560708+00:00",
+      "fetched_at": "2026-10-15T00:55:15.996961+00:00",
+      "last_checked_at": "2026-10-15T00:55:15.996971+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -374,7 +398,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:15.996990+00:00",
+      "last_verified_at": "2026-10-15T00:55:15.996990+00:00"
     },
     {
       "id": "hw-1301010182762",
@@ -394,8 +420,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "飯田橋公共職業安定所",
       "job_category": "パート",
-      "fetched_at": "2026-10-10T00:10:48.040706+00:00",
-      "last_checked_at": "2026-10-10T00:10:48.040724+00:00",
+      "fetched_at": "2026-10-15T00:55:01.509461+00:00",
+      "last_checked_at": "2026-10-15T00:55:01.509471+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -408,7 +434,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:01.509489+00:00",
+      "last_verified_at": "2026-10-15T00:55:01.509489+00:00"
     },
     {
       "id": "hw-1308097612561",
@@ -428,8 +456,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "新宿公共職業安定所",
       "job_category": "パート",
-      "fetched_at": "2026-10-10T00:10:52.823268+00:00",
-      "last_checked_at": "2026-10-10T00:10:52.823284+00:00",
+      "fetched_at": "2026-10-15T00:55:50.069568+00:00",
+      "last_checked_at": "2026-10-15T00:55:50.069579+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -442,7 +470,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:50.069598+00:00",
+      "last_verified_at": "2026-10-15T00:55:50.069598+00:00"
     },
     {
       "id": "hw-1308097614761",
@@ -462,8 +492,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "新宿公共職業安定所",
       "job_category": "パート",
-      "fetched_at": "2026-10-10T00:10:57.618118+00:00",
-      "last_checked_at": "2026-10-10T00:10:57.618135+00:00",
+      "fetched_at": "2026-10-15T00:54:32.458373+00:00",
+      "last_checked_at": "2026-10-15T00:54:32.458384+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -476,7 +506,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:54:32.458402+00:00",
+      "last_verified_at": "2026-10-15T00:54:32.458402+00:00"
     },
     {
       "id": "hw-1308097616961",
@@ -496,8 +528,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "新宿公共職業安定所",
       "job_category": "パート",
-      "fetched_at": "2026-10-10T00:11:02.292487+00:00",
-      "last_checked_at": "2026-10-10T00:11:02.292501+00:00",
+      "fetched_at": "2026-10-15T00:54:27.690052+00:00",
+      "last_checked_at": "2026-10-15T00:54:27.690063+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -510,7 +542,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:54:27.690082+00:00",
+      "last_verified_at": "2026-10-15T00:54:27.690082+00:00"
     },
     {
       "id": "hw-2706030141461",
@@ -530,8 +564,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "淀川公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-10T00:11:07.044137+00:00",
-      "last_checked_at": "2026-10-10T00:11:07.044153+00:00",
+      "fetched_at": "2026-10-15T00:54:22.884240+00:00",
+      "last_checked_at": "2026-10-15T00:54:22.884254+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -544,7 +578,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:54:22.884273+00:00",
+      "last_verified_at": "2026-10-15T00:54:22.884273+00:00"
     },
     {
       "id": "hw-1308097597661",
@@ -564,8 +600,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "新宿公共職業安定所",
       "job_category": "パート",
-      "fetched_at": "2026-10-09T00:11:49.393635+00:00",
-      "last_checked_at": "2026-10-09T00:11:49.393652+00:00",
+      "fetched_at": "2026-10-15T00:55:45.205109+00:00",
+      "last_checked_at": "2026-10-15T00:55:45.205118+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -578,7 +614,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:45.205137+00:00",
+      "last_verified_at": "2026-10-15T00:55:45.205137+00:00"
     },
     {
       "id": "hw-1311019413161",
@@ -598,8 +636,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "足立公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-09T00:11:54.122919+00:00",
-      "last_checked_at": "2026-10-09T00:11:54.122934+00:00",
+      "fetched_at": "2026-10-15T00:55:54.822359+00:00",
+      "last_checked_at": "2026-10-15T00:55:54.822368+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -612,7 +650,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:54.822385+00:00",
+      "last_verified_at": "2026-10-15T00:55:54.822385+00:00"
     },
     {
       "id": "hw-1702006191661",
@@ -645,8 +685,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-1702006192261",
@@ -679,8 +719,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2302067442361",
@@ -713,8 +753,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-4012025996461",
@@ -747,8 +787,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-1308096945961",
@@ -768,8 +808,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "新宿公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-08T01:16:40.341968+00:00",
-      "last_checked_at": "2026-10-08T01:16:40.341984+00:00",
+      "fetched_at": "2026-10-15T00:55:25.776954+00:00",
+      "last_checked_at": "2026-10-15T00:55:25.776963+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -782,7 +822,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:25.776981+00:00",
+      "last_verified_at": "2026-10-15T00:55:25.776981+00:00"
     },
     {
       "id": "hw-1308096948361",
@@ -802,8 +844,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "新宿公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-08T01:16:45.087168+00:00",
-      "last_checked_at": "2026-10-08T01:16:45.087187+00:00",
+      "fetched_at": "2026-10-15T00:55:30.582816+00:00",
+      "last_checked_at": "2026-10-15T00:55:30.582826+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -816,7 +858,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:30.582845+00:00",
+      "last_verified_at": "2026-10-15T00:55:30.582845+00:00"
     },
     {
       "id": "hw-1308096954161",
@@ -836,8 +880,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "新宿公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-08T01:16:49.917306+00:00",
-      "last_checked_at": "2026-10-08T01:16:49.917321+00:00",
+      "fetched_at": "2026-10-15T00:55:35.512040+00:00",
+      "last_checked_at": "2026-10-15T00:55:35.512048+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -850,7 +894,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:35.512066+00:00",
+      "last_verified_at": "2026-10-15T00:55:35.512066+00:00"
     },
     {
       "id": "hw-1308096956361",
@@ -870,8 +916,8 @@
       "deadline": "2026年12月31日",
       "accepting_office": "新宿公共職業安定所",
       "job_category": "フルタイム",
-      "fetched_at": "2026-10-08T01:16:54.670866+00:00",
-      "last_checked_at": "2026-10-08T01:16:54.670882+00:00",
+      "fetched_at": "2026-10-15T00:55:40.326045+00:00",
+      "last_checked_at": "2026-10-15T00:55:40.326055+00:00",
       "status": "test_candidate",
       "public_scope": "public_candidate",
       "images_imported": false,
@@ -884,7 +930,9 @@
       },
       "last_seen_in_search": true,
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_reason": "public_detail_still_available",
+      "last_attempt_at": "2026-10-15T00:55:40.326074+00:00",
+      "last_verified_at": "2026-10-15T00:55:40.326074+00:00"
     },
     {
       "id": "hw-1312021159061",
@@ -917,8 +965,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2302066307761",
@@ -951,8 +999,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2302066309961",
@@ -985,8 +1033,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2302066311661",
@@ -1019,8 +1067,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2302066312261",
@@ -1053,8 +1101,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-4001060571061",
@@ -1087,8 +1135,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-4001060572361",
@@ -1121,8 +1169,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-4019007225061",
@@ -1155,8 +1203,8 @@
         "reused_previous_detail": false
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2701044895761",
@@ -1189,8 +1237,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2701044897961",
@@ -1223,8 +1271,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-2701044898161",
@@ -1257,8 +1305,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-3303202200861",
@@ -1291,8 +1339,8 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
-      "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
     },
     {
       "id": "hw-3701025078161",
@@ -1325,8 +1373,95 @@
         "reused_previous_detail": true
       },
       "last_seen_in_search": true,
+      "lifecycle_status": "pending",
+      "lifecycle_reason": "deferred_by_budget"
+    },
+    {
+      "job_number": "40120-26357161",
+      "status": "test_candidate",
       "lifecycle_status": "active",
-      "lifecycle_reason": "closure_recheck_still_active"
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4012026357161&kJKbn=1&jGSHNo=GASQy1MZla1gPqTeQ1eSjg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "last_attempt_at": "2026-10-15T00:54:47.027947+00:00",
+      "lifecycle_reason": "public_detail_still_available",
+      "id": "hw-4012026357161",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "title": "保育士（正）",
+      "company": "社会福祉法人グリーンコープ 松島りすの森保育園",
+      "location": "〒812-0062 福岡市東区松島２丁目１０番７号『松島りすの森保育園』",
+      "employment_type": "正社員",
+      "description": "◎クラス担任（初年度は複数担任クラス） ◎行事など子どもに関わる仕事全般 定員：１２０名 ★異年齢交流保育の中でチーム保育を行っているため、音楽・制作 スポーツなどそれぞれが得意なことを活かして、子どもたちの 活動に関わることができる職場です。 ★給食はランチルームでみんなで食べます。 ★年休取得率も高く希望休が取りやすいです。 ☆子育て応援求人 ※勤務開始日は要相談 ※３ヶ月間の研修期間あり（待遇は同じ） 【将来的な業務の変更範囲：変更なし】",
+      "wage": "月給 233,835円〜246,485円",
+      "working_hours": "変形労働時間制 変形労働時間制の単位 １年単位 就業時間１ 7時00分〜16時00分 就業時間２ 8時30分〜17時30分 就業時間３ 10時00分〜19時00分",
+      "holidays": "休日 日曜日，祝日，その他 週休二日制 その他 その他 ＊年末年始（１２／２９～１／３） ＊８週１４休 ローテーション ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月15日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "福岡東公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-15T00:54:47.027916+00:00",
+      "last_checked_at": "2026-10-15T00:54:47.027927+00:00",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "last_verified_at": "2026-10-15T00:54:47.027947+00:00"
+    },
+    {
+      "job_number": "40120-26358061",
+      "status": "test_candidate",
+      "lifecycle_status": "active",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4012026358061&kJKbn=1&jGSHNo=GASQy1MZla1gPqTeQ1eSjg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "last_attempt_at": "2026-10-15T00:54:51.888265+00:00",
+      "lifecycle_reason": "public_detail_still_available",
+      "id": "hw-4012026358061",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "title": "保育士（パート）",
+      "company": "社会福祉法人グリーンコープ 松島りすの森保育園",
+      "location": "〒812-0062 福岡県福岡市東区松島２丁目１０番７号",
+      "employment_type": "正社員以外 正社員以外の名称 常勤パート 正社員登用の有無 なし",
+      "description": "◎０～５歳児の保育の仕事です。 ＊正職員の保育の補助 ＊食事介助 ＊室内清掃等 ※雇用期間満了後、１年ごとの更新あり（原則更新） ★子育て応援求人（求人の特記事項欄参照） ★６０歳以上の方も応募可能です「アクティブシニア求人」 （書類なし・リーダーなし・早出居残り当番なし） （別室にて休憩あり・残業なし・お子さんの学校行事など 相談可能） 【業務の変更範囲：変更なし】",
+      "wage": "193,920円〜210,080円",
+      "working_hours": "就業時間１ 8時30分〜17時30分",
+      "holidays": "休日 土曜日，日曜日，祝日，その他 その他 ＊年末年始（１２／２９～１／３） ＊行事の際は土曜日出勤もあり（年３～４回程度）※手当あり ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月15日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "福岡東公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-15T00:54:51.888231+00:00",
+      "last_checked_at": "2026-10-15T00:54:51.888242+00:00",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "last_verified_at": "2026-10-15T00:54:51.888265+00:00"
+    },
+    {
+      "job_number": "40190-07565061",
+      "status": "test_candidate",
+      "lifecycle_status": "active",
+      "source_url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=4019007565061&kJKbn=1&jGSHNo=spjC3bt6GCQR4keuhwBGSg%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0",
+      "last_attempt_at": "2026-10-15T00:54:56.744020+00:00",
+      "lifecycle_reason": "public_detail_still_available",
+      "id": "hw-4019007565061",
+      "source_type": "hellowork",
+      "source_name": "ハローワークインターネットサービス",
+      "title": "医療事務（新規開業クリニック勤務）Ｒ９年３月開業予定",
+      "company": "今宿駅前ミモザ消化器内視鏡クリニック",
+      "location": "〒819-0168 福岡県福岡市西区今宿駅前１丁目２番１２号",
+      "employment_type": "正社員",
+      "description": "◎消化器内科 ・受付業務、電話対応、会計、窓口業務 ・レセプト業務 ・内視鏡検査の準備、片付け、洗浄 ・患者様のご案内 ・院内整備、掃除等 ・医院のＳＮＳ更新、広報 ・その他の事務作業 ※令和９年３月開業予定 勤務開始は２月中旬～下旬ごろを予定 ＊変更範囲：変更なし ワークライフバランス抜群： 土日祝日休みで、プライベートとの両立がしやすい職場です。 地域密着型の医療サービス：地域の方々に寄り添い信頼されるクリ ニックを一緒に作り上げましょう",
+      "wage": "月給 212,000円〜212,000円",
+      "working_hours": "就業時間１ 8時30分〜17時30分",
+      "holidays": "休日 土曜日，日曜日，祝日，その他 その他 夏季休暇、年末年始休暇 ６ヶ月経過後の年次有給休暇日数 10日",
+      "received_date": "2026年10月15日",
+      "deadline": "2026年12月31日",
+      "accepting_office": "福岡西公共職業安定所",
+      "job_category": "フルタイム",
+      "fetched_at": "2026-10-15T00:54:56.743992+00:00",
+      "last_checked_at": "2026-10-15T00:54:56.744002+00:00",
+      "public_scope": "public_candidate",
+      "images_imported": false,
+      "map_imported": false,
+      "last_verified_at": "2026-10-15T00:54:56.744020+00:00"
     }
   ]
 }
