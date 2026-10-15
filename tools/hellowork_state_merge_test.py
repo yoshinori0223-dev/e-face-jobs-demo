@@ -52,6 +52,9 @@ def main():
     for k,row in prev_map.items():
         if k in merged:
             continue
+        if row.get("lifecycle_status")=="closed":
+            merged[k]=row
+            continue
         check=close_map.get(k)
         if not check:
             row["lifecycle_status"]="review_required"

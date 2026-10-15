@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - ".github/workflows/hellowork-daily-publish.yml"
+      - "tools/hellowork*.py"
 
 concurrency:
   group: hellowork-daily-publish
@@ -19,7 +20,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,6 +38,7 @@ jobs:
           python tools/hellowork_diff_regression_test.py
           python tools/hellowork_closure_regression_test.py
           python tools/hellowork_state_merge_regression_test.py
+          python tools/hellowork_pipeline_regression_test.py
 
       - name: Prepare previous snapshot
         run: |
@@ -55,7 +57,7 @@ jobs:
 
       - name: Closure recheck
         run: |
-          python tools/hellowork_closure_recheck_test.py             --diff data/hellowork-auto-diff.json             --max 30             --delay 4             --output data/hellowork-auto-closure.json
+          python tools/hellowork_closure_recheck_test.py             --diff data/hellowork-auto-diff.json             --max 0             --delay 4             --output data/hellowork-auto-closure.json
 
       - name: Lifecycle merge
         run: |
@@ -73,6 +75,13 @@ jobs:
 
           state=json.loads(Path("data/hellowork-auto-merged.json").read_text(encoding="utf-8"))
           summary=state.get("summary",{})
+
+          closure=json.loads(Path("data/hellowork-auto-closure.json").read_text(encoding="utf-8"))
+          assert closure["unchecked_count"] == 0, closure
+          problems=[{"job_number":r.get("job_number"),"reason":r.get("lifecycle_reason")}
+                    for r in state.get("results",[]) if r.get("lifecycle_status")=="review_required"]
+          if problems:
+              print("::error::Hello Work verification unresolved: " + json.dumps(problems,ensure_ascii=False))
 
           # Fail closed: ambiguous closure must never be auto-published.
           assert summary.get("review_required",0) == 0, summary

@@ -85,8 +85,8 @@ def regex_value(text: str, label: str, next_labels: list[str]) -> Optional[str]:
     m = re.search(re.escape(label) + r"\s*(.+?)(?=\s*(?:" + stops + r")\s*|$)", text)
     return clean(m.group(1)) if m else None
 
-def extract_job(url: str, session: requests.Session) -> dict:
-    r = session.get(url, timeout=30)
+def extract_job(url: str, session: requests.Session, response=None) -> dict:
+    r = response if response is not None else session.get(url, timeout=30)
     r.raise_for_status()
     r.encoding = r.apparent_encoding or r.encoding
     soup = BeautifulSoup(r.text, "html.parser")

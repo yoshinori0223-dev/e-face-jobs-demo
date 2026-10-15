@@ -41,6 +41,8 @@ def digest(row):
 def eligible(rows):
     out=[]
     for r in rows:
+        if r.get("lifecycle_status") == "closed":
+            continue
         if r.get("status") in ("test_candidate","active","changed","new"):
             k=key_of(r)
             if k:

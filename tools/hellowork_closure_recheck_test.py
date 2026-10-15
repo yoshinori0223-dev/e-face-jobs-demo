@@ -53,7 +53,7 @@ def check_url(url:str, session:requests.Session)->dict:
             return {"closure_status":"closed","reason":"closed_marker","marker":marker,"source_url":url}
 
     try:
-        item=extract_job(url,session)
+        item=extract_job(url,session,response=r)
     except Exception as e:
         return {
             "closure_status":"review_required",
@@ -94,11 +94,14 @@ def main():
     ap.add_argument("--diff",required=True)
     ap.add_argument("--output",default="data/hellowork-closure-recheck.json")
     ap.add_argument("--delay",type=float,default=4.0)
-    ap.add_argument("--max",type=int,default=30)
+    ap.add_argument("--max",type=int,default=0,help="0 checks all candidates; positive values are explicit diagnostic limits")
     args=ap.parse_args()
 
     payload=json.loads(Path(args.diff).read_text(encoding="utf-8"))
-    rows=payload.get("ended_candidate",[])[:max(1,min(args.max,30))]
+    candidates=payload.get("ended_candidate",[])
+    if args.max < 0:
+        ap.error("--max must be 0 (all) or positive")
+    rows=candidates if args.max == 0 else candidates[:args.max]
 
     session=requests.Session()
     session.headers.update({"User-Agent":USER_AGENT,"Accept-Language":"ja,en;q=0.5"})
@@ -113,7 +116,11 @@ def main():
                 "reason":"source_url_missing",
             })
         else:
-            result=check_url(url,session)
+            try:
+                result=check_url(url,session)
+            except requests.RequestException as e:
+                result={"closure_status":"review_required","reason":"request_error",
+                        "error":type(e).__name__,"message":str(e)[:300],"source_url":url}
             result["job_number"]=result.get("job_number") or row.get("job_number")
             checked.append(result)
         if i<len(rows)-1:
@@ -127,7 +134,9 @@ def main():
 
     out={
         "test_only":True,
+        "candidate_count":len(candidates),
         "checked_count":len(checked),
+        "unchecked_count":len(candidates)-len(checked),
         "summary":summary,
         "results":checked,
         "rule":"Missing from search is not enough for closure; close only on explicit recheck evidence."
