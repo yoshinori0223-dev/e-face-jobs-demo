@@ -16,7 +16,7 @@ def good(url, session):
 rows={str(i):row(str(i)) for i in range(1000)}
 for run in range(84):
     fresh, summary=verify(rows,priority(rows,[str(i) for i in range(5)],[str(i) for i in range(5,8)]),None,
-                          checker=good,sleeper=lambda _:None)
+                          max_checks=20,checker=good,sleeper=lambda _:None)
     assert summary['checked']==20
     assert len(fresh)==20
     rows=copy.deepcopy(rows)  # Saved lifecycle flags must not substitute for evidence.
@@ -32,7 +32,7 @@ clock=Clock()
 def slow(url,session):
     clock.value+=100
     return good(url,session)
-fresh,s=verify(rows,list(rows),None,checker=slow,clock=clock,sleeper=lambda _:None)
+fresh,s=verify(rows,list(rows),None,budget=240,checker=slow,clock=clock,sleeper=lambda _:None)
 assert s['checked']==3 and s['pending']==97
 assert len(fresh)==3
 
@@ -46,12 +46,12 @@ def mixed(url,session):
     return good(url,session)
 fresh,s=verify(rows,list(rows),None,max_checks=4,checker=mixed,sleeper=lambda _:None)
 assert [r['job_number'] for r in fresh]==['3']
-assert s=={'checked':4,'pending':1,'review_required':2,'closed':1}
+assert {k:s[k] for k in ('checked','pending','review_required','closed')}=={'checked':4,'pending':1,'review_required':2,'closed':1}
 assert rows['4']['lifecycle_status']=='pending'
 assert '1' not in priority(rows,[],[])
 assert '1' in priority(rows,['1'],[]) # Reappearance is reverified.
 # Carrying an old active flag cannot bypass the execution's fresh set.
-fresh,s=verify(rows,list(rows),None,budget=0,checker=good,sleeper=lambda _:None)
+fresh,s=verify(rows,list(rows),None,budget=0,max_checks=20,checker=good,sleeper=lambda _:None)
 assert fresh==[]
 print('PASS bounded daily: 1000-job fairness, durable queue, count/time budgets, fail-closed publication, terminal states')
 
@@ -66,7 +66,7 @@ with tempfile.TemporaryDirectory() as td:
     state=Path(td)/'state.json'; output=Path(td)/'jobs.js'; audit=Path(td)/'audit.json'
     state.write_text(json.dumps({'results':[row(str(i)) for i in range(40)]}))
     def offline(rows,order,session):
-        return verify(rows,order,session,checker=good,sleeper=lambda _:None)
+        return verify(rows,order,session,max_checks=20,checker=good,sleeper=lambda _:None)
     argv=['daily','--state',str(state),'--output',str(output),'--audit',str(audit)]
     for attempt in range(2):
         with patch.object(sys,'argv',argv), patch.object(daily,'discover',return_value=[]), patch.object(daily,'verify',side_effect=offline):
@@ -77,3 +77,11 @@ with tempfile.TemporaryDirectory() as td:
         assert output.read_text().count('"source": "hellowork-live-test"')==3
     assert sum(bool(r.get('last_attempt_at')) for r in saved['results'])==37
 print('PASS full runner persistence and publication across two executions')
+
+# Production defaults cover current history and retain a bounded ceiling.
+for count,expected in ((42,42),(47,47),(200,100)):
+    rows={str(i):row(str(i)) for i in range(count)}
+    fresh,s=verify(rows,list(rows),None,checker=good,sleeper=lambda _:None)
+    assert s['checked']==expected and s['pending']==count-expected
+    assert 'verification_seconds' in s
+print('PASS production limits: 42/47 records fully checked; 200 records capped at 100')

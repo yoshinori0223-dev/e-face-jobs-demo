@@ -17,6 +17,10 @@ from hellowork_closure_recheck_test import check_url
 from hellowork_publish_candidate import clean, js_job
 
 
+MAX_DETAIL_CHECKS = 100
+VERIFICATION_BUDGET_SECONDS = 600
+REQUEST_DELAY_SECONDS = 4
+
 def now():
     return datetime.now(timezone.utc).isoformat()
 
@@ -30,7 +34,7 @@ def priority(rows, discovered, published):
     return [k for k in front if k in eligible]+rest
 
 
-def verify(rows, order, session, max_checks=20, budget=240, delay=4,
+def verify(rows, order, session, max_checks=MAX_DETAIL_CHECKS, budget=VERIFICATION_BUDGET_SECONDS, delay=REQUEST_DELAY_SECONDS,
            checker=check_url, clock=time.monotonic, sleeper=time.sleep):
     started=clock(); checked=[]; fresh=[]
     for key in order:
@@ -71,7 +75,8 @@ def verify(rows, order, session, max_checks=20, budget=240, delay=4,
         rows[key]['lifecycle_reason']='deferred_by_budget'
     return fresh, {'checked':len(checked),'pending':len(pending),
                    'review_required':sum(rows[k]['lifecycle_status']=='review_required' for k in checked),
-                   'closed':sum(rows[k]['lifecycle_status']=='closed' for k in checked)}
+                   'closed':sum(rows[k]['lifecycle_status']=='closed' for k in checked),
+                   'verification_seconds':round(clock()-started,2)}
 
 
 def main():
@@ -103,7 +108,8 @@ def main():
     state={'schema_version':2,'generated_at':now(),'summary':summary,
            'published_job_numbers':[r['job_number'] for r in selected],
            'results':list(rows.values())}
-    audit={'limits':{'detail_requests':20,'verification_seconds':240,'delay_seconds':4},
+    audit={'limits':{'detail_requests':MAX_DETAIL_CHECKS,'verification_seconds':VERIFICATION_BUDGET_SECONDS,
+                     'delay_seconds':REQUEST_DELAY_SECONDS},
            'summary':summary,'published_job_numbers':state['published_job_numbers'],
            'review':[{'job_number':r['job_number'],'reason':r.get('lifecycle_reason')}
                      for r in rows.values() if r.get('lifecycle_status')=='review_required']}
