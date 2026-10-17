@@ -13,7 +13,7 @@ const HELLOWORK_LIVE_TEST_JOBS=[
       "正社員"
     ],
     "hwNo": "27060-30141461",
-    "fetched": "2026/10/16",
+    "fetched": "2026/10/17",
     "received": "2026年10月9日",
     "deadline": "2026年12月31日",
     "sourceLabel": "ハローワーク公開求人・テスト表示",
@@ -21,29 +21,6 @@ const HELLOWORK_LIVE_TEST_JOBS=[
     "workingHours": "変形労働時間制 変形労働時間制の単位 １ヶ月単位 就業時間１ 7時00分〜16時00分 就業時間２ 8時00分〜17時00分 就業時間３ 10時30分〜19時30分 就業時間に関する特記事項 （４）１７：００～１０：００／夜勤実働１６時間 各シフト時間は多少前後します。",
     "holidays": "休日 その他 週休二日制 その他 その他 ４週８休制（勤務表による）■有給取得促進手当あり ■有給取得で長期休暇（５連休以上の取得）も可能 ６ヶ月経過後の年次有給休暇日数 10日",
     "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=2706030141461&kJKbn=1&jGSHNo=b9BaAWp3JllwDp%2Fk6AdvUA%3D%3D&fullPart=1&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
-  },
-  {
-    "id": "hw-1308097616961",
-    "source": "hellowork-live-test",
-    "title": "調理および接客／博多筑紫口店",
-    "company": "日本マクドナルド 株式会社",
-    "area": "〒812-0013 福岡県福岡市博多区博多駅東２－１－１ Ｂ１Ｆ",
-    "cat": "販売・接客",
-    "type": "アルバイト・パート",
-    "pay": "時給 1,114円〜1,114円",
-    "tags": [
-      "ハローワーク公開求人",
-      "アルバイト・パート"
-    ],
-    "hwNo": "13080-97616961",
-    "fetched": "2026/10/16",
-    "received": "2026年10月9日",
-    "deadline": "2026年12月31日",
-    "sourceLabel": "ハローワーク公開求人・テスト表示",
-    "description": "マクドナルドでは多種多様な方（学生、主婦（夫）、シニア、外国 人等）が多数活躍しています。写真付きのマニュアルとカリキュラ ムに沿ったサポートで安心してスタートできます。 ・キッチンでの調理 ・レジカウンターでの接客・商品注文受付 ・その他、配膳、清掃など店舗運営に関わる業務 ＊全国のマクドナルドには約７千人のシニアスタッフ （６０歳～８０歳代）が在籍しています。 ＊外国人の方も多数活躍中（日本語のあいさつができる方、 カタカナが読める方） 変更範囲：フロア担当業務",
-    "workingHours": "就業時間１ 5時00分〜8時00分 就業時間２ 11時00分〜14時00分 就業時間３ 21時00分〜0時00分 就業時間に関する特記事項 （１）～（３）はシフト例 週１日２時間以上でご希望に応じた勤務が可能です",
-    "holidays": "休日 その他 週休二日制 毎週 ６ヶ月経過後の年次有給休暇日数 1日",
-    "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308097616961&kJKbn=1&jGSHNo=25LuTPpN2dpq%2Fu8qBe5Cbw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
   },
   {
     "id": "hw-1308097614761",
@@ -59,7 +36,7 @@ const HELLOWORK_LIVE_TEST_JOBS=[
       "アルバイト・パート"
     ],
     "hwNo": "13080-97614761",
-    "fetched": "2026/10/16",
+    "fetched": "2026/10/17",
     "received": "2026年10月9日",
     "deadline": "2026年12月31日",
     "sourceLabel": "ハローワーク公開求人・テスト表示",
@@ -67,5 +44,28 @@ const HELLOWORK_LIVE_TEST_JOBS=[
     "workingHours": "就業時間１ 8時00分〜14時00分 就業時間２ 10時00分〜17時00分 就業時間３ 17時00分〜23時00分 就業時間に関する特記事項 （１）～（３）はシフト例 週１日２時間以上でご希望に応じた勤務が可能です",
     "holidays": "休日 その他 週休二日制 毎週 ６ヶ月経過後の年次有給休暇日数 1日",
     "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308097614761&kJKbn=1&jGSHNo=25LuTPpN2dpq%2Fu8qBe5Cbw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
+  },
+  {
+    "id": "hw-1308097612561",
+    "source": "hellowork-live-test",
+    "title": "調理および接客／キャナルシティ博多店",
+    "company": "日本マクドナルド 株式会社",
+    "area": "〒812-0018 福岡県福岡市博多区住吉１－２－２０ キャナルシティ博多センターウォークＢ１Ｆ",
+    "cat": "販売・接客",
+    "type": "アルバイト・パート",
+    "pay": "時給 1,114円〜1,114円",
+    "tags": [
+      "ハローワーク公開求人",
+      "アルバイト・パート"
+    ],
+    "hwNo": "13080-97612561",
+    "fetched": "2026/10/17",
+    "received": "2026年10月9日",
+    "deadline": "2026年12月31日",
+    "sourceLabel": "ハローワーク公開求人・テスト表示",
+    "description": "マクドナルドでは多種多様な方（学生、主婦（夫）、シニア、外国 人等）が多数活躍しています。写真付きのマニュアルとカリキュラ ムに沿ったサポートで安心してスタートできます。 ・キッチンでの調理 ・レジカウンターでの接客・商品注文受付 ・その他、配膳、清掃など店舗運営に関わる業務 ＊全国のマクドナルドには約７千人のシニアスタッフ （６０歳～８０歳代の方）が在籍しています。 ＊外国人の方も多数活躍中（日本語のあいさつができる方、 カタカナが読める方） 変更範囲：フロア担当業務",
+    "workingHours": "就業時間１ 7時00分〜14時00分 就業時間２ 9時00分〜17時00分 就業時間３ 16時00分〜0時00分 就業時間に関する特記事項 （１）～（３）はシフト例 週１日２時間以上でご希望に応じた勤務が可能です",
+    "holidays": "休日 その他 週休二日制 毎週 ６ヶ月経過後の年次有給休暇日数 1日",
+    "sourceUrl": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?screenId=GECA110010&action=dispDetailBtn&kJNo=1308097612561&kJKbn=1&jGSHNo=25LuTPpN2dpq%2Fu8qBe5Cbw%3D%3D&fullPart=2&iNFTeikyoRiyoDtiID=&kSNo=&newArrived=&tatZngy=1&shogaiKbn=0"
   }
 ];
